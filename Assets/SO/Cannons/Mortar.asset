@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Mortar
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 405513209193146826, guid: 9518206c22e99224fbc8f6d1598f9174, type: 3}
+  damage: 45
+  speed: 0.2
+  range: 7
+  ammo: 10
+  upgrades: []
+  iconPrefab: {fileID: 6592043121955839967, guid: a7cd770a89cbd6241a4d2f49dd96f298, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 55
+    - price: 0
+      newValue: 65
+    - price: 0
+      newValue: 75
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 0.3
+    - price: 0
+      newValue: 0.4
+    - price: 0
+      newValue: 0.6
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 8
+    - price: 0
+      newValue: 10
+    - price: 0
+      newValue: 12
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 15
+    - price: 0
+      newValue: 20
+    - price: 0
+      newValue: 25

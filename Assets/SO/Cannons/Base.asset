@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 9199230675491477614, guid: fb3b6d451223d984d990a5da63185487, type: 3}
+  damage: 3
+  speed: 0.7
+  range: 3.5
+  ammo: 15
+  upgrades:
+  - {fileID: 11400000, guid: 4a9238f9b0b5c02478e0c1354ed13eb0, type: 2}
+  - {fileID: 11400000, guid: 965dbd7b375d7b547a4acc48e20c8c81, type: 2}
+  - {fileID: 11400000, guid: e8ae1408b403fbe429a921d960f02471, type: 2}
+  - {fileID: 11400000, guid: affb5894aa9b8a941979ba58d89b370b, type: 2}
+  iconPrefab: {fileID: 6592043121955839967, guid: 98153ce5f42dcbf4d80fe141dfc8d786, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 2
+      newValue: 4
+    - price: 0
+      newValue: 5
+    - price: 0
+      newValue: 7
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 0.9
+    - price: 0
+      newValue: 1
+    - price: 0
+      newValue: 1.2
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 4
+    - price: 0
+      newValue: 4.5
+    - price: 0
+      newValue: 5
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 20
+    - price: 0
+      newValue: 25
+    - price: 0
+      newValue: 35

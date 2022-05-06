@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Balloon
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 5454738451352297565, guid: a83c25b6d28df80458de9b594a0df45f, type: 3}
+  damage: 6
+  speed: 0.9
+  range: 5
+  ammo: 64
+  upgrades: []
+  iconPrefab: {fileID: 6592043121955839967, guid: e1dfab4ba7f6c5544840f2287f7ff74c, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 8
+    - price: 0
+      newValue: 10
+    - price: 0
+      newValue: 12
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 1.1
+    - price: 0
+      newValue: 1.3
+    - price: 0
+      newValue: 1.5
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 6
+    - price: 0
+      newValue: 7
+    - price: 0
+      newValue: 7.5
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 96
+    - price: 0
+      newValue: 128
+    - price: 0
+      newValue: 256

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Guntling
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 810903773814660946, guid: 680446a34a796a64aa8b9793da30c5bc, type: 3}
+  damage: 1
+  speed: 6
+  range: 5
+  ammo: 250
+  upgrades: []
+  iconPrefab: {fileID: 6592043121955839967, guid: 983857e5c04672244beca0a8489b6938, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 2
+    - price: 0
+      newValue: 3
+    - price: 0
+      newValue: 4
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 8
+    - price: 0
+      newValue: 10
+    - price: 0
+      newValue: 12
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 5.5
+    - price: 0
+      newValue: 6.5
+    - price: 0
+      newValue: 7.5
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 0
+      newValue: 375
+    - price: 0
+      newValue: 500
+    - price: 0
+      newValue: 750
