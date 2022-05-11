@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ECBFD2F1-821B-0C94-ECB5-FB5104FB37F5}</ProjectGuid>
+    <ProjectGuid>{C4D19551-529B-285B-3965-0A4814C45B50}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,40 +66,40 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\CannonCard.cs" />
     <Compile Include="Assets\Scripts\CannonShop.cs" />
-    <Compile Include="Assets\CashUI.cs" />
+    <Compile Include="Assets\Scripts\CashUI.cs" />
     <Compile Include="Assets\Scripts\Cannon.cs" />
     <Compile Include="Assets\Scripts\SpriteMaskAnimation.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\MobileMovement.cs" />
     <Compile Include="Assets\Scripts\CannonCrate.cs" />
-    <Compile Include="Assets\DroppedLoot.cs" />
+    <Compile Include="Assets\Scripts\DroppedLoot.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
-    <Compile Include="Assets\Consumable2Buy.cs" />
+    <Compile Include="Assets\Scripts\Consumable2Buy.cs" />
     <Compile Include="Assets\Scripts\UpgradePanel.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
-    <Compile Include="Assets\Item2Buy.cs" />
+    <Compile Include="Assets\Scripts\Item2Buy.cs" />
+    <Compile Include="Assets\Scripts\Trap.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\BulletArc.cs" />
     <Compile Include="Assets\Scripts\CannonShopManager.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
-    <Compile Include="Assets\GadgetButton.cs" />
+    <Compile Include="Assets\Scripts\GadgetButton.cs" />
     <Compile Include="Assets\Scripts\barrelComponent.cs" />
-    <Compile Include="Assets\ItemSO.cs" />
+    <Compile Include="Assets\Scripts\ItemSO.cs" />
     <Compile Include="Assets\Scripts\PlayerActions.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
     <Compile Include="Assets\Scripts\ActionButton.cs" />
-    <Compile Include="Assets\MerchantShop.cs" />
-    <Compile Include="Assets\ObjectThrow.cs" />
+    <Compile Include="Assets\Scripts\MerchantShop.cs" />
+    <Compile Include="Assets\Scripts\ObjectThrow.cs" />
     <Compile Include="Assets\Scripts\UIContainer.cs" />
     <Compile Include="Assets\Scripts\Destructable.cs" />
     <Compile Include="Assets\Scripts\DestructableCannon.cs" />
     <Compile Include="Assets\Scripts\UpgradeStation.cs" />
     <Compile Include="Assets\Scripts\CannonSO.cs" />
-    <Compile Include="Assets\Trap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -789,7 +789,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{842E3B0E-601D-C4C9-EFB5-DB390BC45581}</Project>
+      <Project>{D4DBA582-9BEA-E7A5-A218-A83262A738CD}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
