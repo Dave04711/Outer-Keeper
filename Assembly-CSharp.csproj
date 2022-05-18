@@ -88,11 +88,14 @@
     <Compile Include="Assets\Scripts\barrelComponent.cs" />
     <Compile Include="Assets\Scripts\ItemSO.cs" />
     <Compile Include="Assets\Scripts\PlayerActions.cs" />
+    <Compile Include="Assets\ActiveBuff.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
+    <Compile Include="Assets\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ActionButton.cs" />
+    <Compile Include="Assets\Potion2Buy.cs" />
     <Compile Include="Assets\Scripts\MerchantShop.cs" />
     <Compile Include="Assets\Scripts\ObjectThrow.cs" />
     <Compile Include="Assets\Scripts\UIContainer.cs" />
@@ -100,6 +103,7 @@
     <Compile Include="Assets\Scripts\DestructableCannon.cs" />
     <Compile Include="Assets\Scripts\UpgradeStation.cs" />
     <Compile Include="Assets\Scripts\CannonSO.cs" />
+    <Compile Include="Assets\DoubleTapCameraZoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -9,7 +9,7 @@ public class MobileMovement : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField] float speed = 1;
     [SerializeField] float threshold;
-    float defSpeed;
+    public float defSpeed;
     [SerializeField] float slowness = .5f;
 
     private void Awake()

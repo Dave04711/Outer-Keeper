@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: a075a69a392ddd2419322d6bbc4c2b36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9213987883630002970
+    second: BlueMage_Sprites_0
+  - first:
+      213: -13992431522750535
+    second: BlueMage_Sprites_1
+  - first:
+      213: -808206705391319300
+    second: BlueMage_Sprites_2
+  - first:
+      213: 2963209868660643897
+    second: BlueMage_Sprites_3
+  - first:
+      213: -352623925795390882
+    second: BlueMage_Sprites_4
+  - first:
+      213: 6454444472180326926
+    second: BlueMage_Sprites_5
+  - first:
+      213: 121179636798023734
+    second: BlueMage_Sprites_6
+  - first:
+      213: 1712572717860161649
+    second: BlueMage_Sprites_7
+  - first:
+      213: 1114227758078267258
+    second: BlueMage_Sprites_8
+  - first:
+      213: -5210068766915671651
+    second: BlueMage_Sprites_9
+  - first:
+      213: 2063921448647551953
+    second: BlueMage_Sprites_10
+  - first:
+      213: -7770037180350441600
+    second: BlueMage_Sprites_11
+  - first:
+      213: -5191144091905592584
+    second: BlueMage_Sprites_12
+  - first:
+      213: -9108104245436038986
+    second: BlueMage_Sprites_13
+  - first:
+      213: 3916186466889951666
+    second: BlueMage_Sprites_14
+  - first:
+      213: 5873262795155242749
+    second: BlueMage_Sprites_15
+  - first:
+      213: -8191274039262522842
+    second: BlueMage_Sprites_16
+  - first:
+      213: -2148309629403657492
+    second: BlueMage_Sprites_17
+  - first:
+      213: 8662175555564826786
+    second: BlueMage_Sprites_18
+  - first:
+      213: 7671440669286618322
+    second: BlueMage_Sprites_19
+  - first:
+      213: -8151373572851668832
+    second: BlueMage_Sprites_20
+  - first:
+      213: -3003844128226534030
+    second: BlueMage_Sprites_21
+  - first:
+      213: 8615558212618207317
+    second: BlueMage_Sprites_22
+  - first:
+      213: 8410475913702309508
+    second: BlueMage_Sprites_23
+  - first:
+      213: -739944545644186574
+    second: BlueMage_Sprites_24
+  - first:
+      213: -6932952382963380567
+    second: BlueMage_Sprites_25
+  - first:
+      213: -3745067287249483078
+    second: BlueMage_Sprites_26
+  - first:
+      213: 3422986686423862411
+    second: BlueMage_Sprites_27
+  - first:
+      213: -8733251175260246329
+    second: BlueMage_Sprites_28
+  - first:
+      213: 5548159435290395748
+    second: BlueMage_Sprites_29
+  - first:
+      213: 6565171895917994125
+    second: BlueMage_Sprites_30
+  - first:
+      213: -4421212713503598257
+    second: BlueMage_Sprites_31
+  - first:
+      213: -8438762889646061644
+    second: BlueMage_Sprites_32
+  - first:
+      213: -2404788441605879103
+    second: BlueMage_Sprites_33
+  - first:
+      213: 8477003726933594072
+    second: BlueMage_Sprites_34
+  - first:
+      213: 6099557043391819547
+    second: BlueMage_Sprites_35
+  - first:
+      213: 2540608339550098687
+    second: BlueMage_Sprites_36
+  - first:
+      213: 3458003319601589899
+    second: BlueMage_Sprites_37
+  - first:
+      213: 718830878848708180
+    second: BlueMage_Sprites_38
+  - first:
+      213: -2658855250798221408
+    second: BlueMage_Sprites_39
+  - first:
+      213: -2594687188028607314
+    second: BlueMage_Sprites_40
+  - first:
+      213: 4881141347929054841
+    second: BlueMage_Sprites_41
+  - first:
+      213: -2189570430403643028
+    second: BlueMage_Sprites_42
+  - first:
+      213: 6864276464567273636
+    second: BlueMage_Sprites_43
+  - first:
+      213: 2120827959542172879
+    second: BlueMage_Sprites_44
+  - first:
+      213: 7570003626311187420
+    second: BlueMage_Sprites_45
+  - first:
+      213: 5752619774038106095
+    second: BlueMage_Sprites_46
+  - first:
+      213: -7596559184673096069
+    second: BlueMage_Sprites_47
+  - first:
+      213: -2311690831320800141
+    second: BlueMage_Sprites_48
+  - first:
+      213: -6421001110046361893
+    second: BlueMage_Sprites_49
+  - first:
+      213: -8095828623125123197
+    second: BlueMage_Sprites_50
+  - first:
+      213: -1181886729253526430
+    second: BlueMage_Sprites_51
+  - first:
+      213: -8919885022262318150
+    second: BlueMage_Sprites_52
+  - first:
+      213: 2726822641418788128
+    second: BlueMage_Sprites_53
+  - first:
+      213: -3852966524192089694
+    second: BlueMage_Sprites_54
+  - first:
+      213: 4946566047088579740
+    second: BlueMage_Sprites_55
+  - first:
+      213: 427483466843172307
+    second: BlueMage_Sprites_56
+  - first:
+      213: 214565245371780184
+    second: BlueMage_Sprites_57
+  - first:
+      213: 6059832600904841286
+    second: BlueMage_Sprites_58
+  - first:
+      213: -4340128201975785522
+    second: BlueMage_Sprites_59
+  - first:
+      213: 988490528229666265
+    second: BlueMage_Sprites_60
+  - first:
+      213: -613450069718077237
+    second: BlueMage_Sprites_61
+  - first:
+      213: -7672436985878298123
+    second: BlueMage_Sprites_62
+  - first:
+      213: -5263094967187285166
+    second: BlueMage_Sprites_63
+  - first:
+      213: -7741508622392562714
+    second: BlueMage_Sprites_64
+  - first:
+      213: -3137419254329628583
+    second: BlueMage_Sprites_65
+  - first:
+      213: -8306996794932150506
+    second: BlueMage_Sprites_66
+  - first:
+      213: 4670955456104737038
+    second: BlueMage_Sprites_67
+  - first:
+      213: -4098385438701053392
+    second: BlueMage_Sprites_68
+  - first:
+      213: -580453362897456082
+    second: BlueMage_Sprites_69
+  - first:
+      213: -3559313848550482362
+    second: BlueMage_Sprites_70
+  - first:
+      213: -629739022056166525
+    second: BlueMage_Sprites_71
+  - first:
+      213: 5238483919737269369
+    second: BlueMage_Sprites_72
+  - first:
+      213: 5281455411129053121
+    second: BlueMage_Sprites_73
+  - first:
+      213: 3970775714221965764
+    second: BlueMage_Sprites_74
+  - first:
+      213: -2321078236759488151
+    second: BlueMage_Sprites_75
+  - first:
+      213: -6027886609192254090
+    second: BlueMage_Sprites_76
+  - first:
+      213: -5372666537661915460
+    second: BlueMage_Sprites_77
+  - first:
+      213: 8387277474960151662
+    second: BlueMage_Sprites_78
+  - first:
+      213: -7613728507143208049
+    second: BlueMage_Sprites_79
+  - first:
+      213: 8211605347244610957
+    second: BlueMage_Sprites_80
+  - first:
+      213: 3468908157955399283
+    second: BlueMage_Sprites_81
+  - first:
+      213: -8349079172832190500
+    second: BlueMage_Sprites_82
+  - first:
+      213: -6602644242928931175
+    second: BlueMage_Sprites_83
+  - first:
+      213: 6731857733779142707
+    second: BlueMage_Sprites_84
+  - first:
+      213: -9138922421534480004
+    second: BlueMage_Sprites_85
+  - first:
+      213: 3761865069116931086
+    second: BlueMage_Sprites_86
+  - first:
+      213: 3531257418731897747
+    second: BlueMage_Sprites_87
+  - first:
+      213: 5379692232162260471
+    second: BlueMage_Sprites_88
+  - first:
+      213: -7234676922613331161
+    second: BlueMage_Sprites_89
+  - first:
+      213: 3216596677292651895
+    second: BlueMage_Sprites_90
+  - first:
+      213: -1070421742411229001
+    second: BlueMage_Sprites_91
+  - first:
+      213: 8599020885635904110
+    second: BlueMage_Sprites_92
+  - first:
+      213: 8587839111279600847
+    second: BlueMage_Sprites_93
+  - first:
+      213: 4572688980264587219
+    second: BlueMage_Sprites_94
+  - first:
+      213: 2354723670779145995
+    second: BlueMage_Sprites_95
+  - first:
+      213: -5686116654420654266
+    second: BlueMage_Sprites_96
+  - first:
+      213: 7967322380620273080
+    second: BlueMage_Sprites_97
+  - first:
+      213: 7418101110098290693
+    second: BlueMage_Sprites_98
+  - first:
+      213: 6091344757137394815
+    second: BlueMage_Sprites_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueMage_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1305809929aedf70800000000000000
+      internalID: 9213987883630002970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfda8925f94ecff0800000000000000
+      internalID: -13992431522750535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6cf04984ca8c4f0800000000000000
+      internalID: -808206705391319300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93813700daf6f1920800000000000000
+      internalID: 2963209868660643897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a79a3686a3b1bf0800000000000000
+      internalID: -352623925795390882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02cac2ec0bc29950800000000000000
+      internalID: 6454444472180326926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6386b55dc348ea100800000000000000
+      internalID: 121179636798023734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178841430d744c710800000000000000
+      internalID: 1712572717860161649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f82271e38867f00800000000000000
+      internalID: 1114227758078267258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9942a48f0e12b7b0800000000000000
+      internalID: -5210068766915671651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db62f65f9584ac10800000000000000
+      internalID: 2063921448647551953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08752a51a584b2490800000000000000
+      internalID: -7770037180350441600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f27918c3f955f7b0800000000000000
+      internalID: -5191144091905592584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0ce811273899180800000000000000
+      internalID: -9108104245436038986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9ea21c7d6195630800000000000000
+      internalID: 3916186466889951666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfefeb1f465028150800000000000000
+      internalID: 5873262795155242749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d0e719afb25e80800000000000000
+      internalID: -8191274039262522842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea08d736cbaf22e0800000000000000
+      internalID: -2148309629403657492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0738b06ca363870800000000000000
+      internalID: 8662175555564826786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d45058c4ae667a60800000000000000
+      internalID: 7671440669286618322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a86bae5ce080ee80800000000000000
+      internalID: -8151373572851668832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d1a603ea33056d0800000000000000
+      internalID: -3003844128226534030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550cec41c8c909770800000000000000
+      internalID: 8615558212618207317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueMage_Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e743c684308b470800000000000000
+      internalID: 8410475913702309508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: dbf7f677871e64a45a467407ead0ac05, type: 3}
+      name: _Emission
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

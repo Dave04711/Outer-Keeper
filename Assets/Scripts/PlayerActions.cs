@@ -18,7 +18,7 @@ public class PlayerActions : MonoBehaviour
     Interacting trg, trg2;
     [SerializeField] RangeIndicator rangeIndicator;
     [Header("Attack")]
-    [SerializeField] int damage = 1;
+    public int damage = 1;
     [SerializeField] Transform attackPoint;
     [SerializeField] float attackRange = 1;
     [SerializeField] LayerMask attackLayerMask;
@@ -161,6 +161,8 @@ public class PlayerActions : MonoBehaviour
             if(destructable != null) { destructable.Hit(damage); }
             EnemyMove enemyMove = hits[i].GetComponent<EnemyMove>();
             if(enemyMove != null) { enemyMove.Slowness(.7f); }
+            Health health = hits[i].GetComponent<Health>();
+            if(health != null) { health.Damage(damage); }
         }
     }
 
