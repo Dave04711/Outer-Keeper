@@ -21,13 +21,13 @@ public class DoubleTapCameraZoom : MonoBehaviour
         dif = newZoom - defZoom;
     }
 
-    private void Update()
-    {
-        if (IsDoubleTap())
-        {
-            ToggleZoom();
-        }
-    }
+    //private void Update()
+    //{
+    //    if (IsDoubleTap())
+    //    {
+    //        ToggleZoom();
+    //    }
+    //}
     bool IsDoubleTap()
     {
         bool result = false;
@@ -43,7 +43,7 @@ public class DoubleTapCameraZoom : MonoBehaviour
         return result;
     }
 
-    void ToggleZoom()
+    public void ToggleZoom()
     {
         if (isZooming) { return; }
         zoomed = !zoomed;
@@ -61,9 +61,9 @@ public class DoubleTapCameraZoom : MonoBehaviour
     IEnumerator SetZoom(float _p)
     {
         isZooming = true;
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 50; i++)
         {
-            cam.m_Lens.OrthographicSize += .01f * _p;
+            cam.m_Lens.OrthographicSize += .02f * _p;
             yield return null;
         }
         isZooming = false;

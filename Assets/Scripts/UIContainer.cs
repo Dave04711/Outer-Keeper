@@ -18,4 +18,5 @@ public class UIContainer : MonoBehaviour
     public ActionButton buttonA;
     public ActionButton buttonB;
     public GadgetButton buttonD;
+    public GameOverPanel gameOverPanel;
 }

@@ -10,6 +10,7 @@ public class EnemyMove : MonoBehaviour
     float defSpeed;
     [SerializeField] Animator animator;
     int index = 1;
+    [SerializeField] GameObject VanishFX;
 
     private void Awake()
     {
@@ -26,7 +27,11 @@ public class EnemyMove : MonoBehaviour
 
     private void Update()
     {
-        if(index == points.Count) { gameObject.SetActive(false); }
+        if(index == points.Count)
+        { 
+            PathsManager.instance.GetComponent<EnemySpawn>().TurnOff(gameObject);
+            Destroy(Instantiate(VanishFX, transform.position, Quaternion.identity), 2f);
+        }
         else
         {
             if (Vector2.Distance(transform.position, points[index].position) <= .02f) { index++; }

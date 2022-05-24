@@ -361,8 +361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b77e90a533b962544bd2bffb7e239740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   animator: {fileID: 1327287785235458095}
+  VanishFX: {fileID: 587472293530555285, guid: 19dead83879a3934f9a3d2575e66fdaf, type: 3}
 --- !u!114 &4199498802515286512
 MonoBehaviour:
   m_ObjectHideFlags: 0

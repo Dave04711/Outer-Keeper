@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int maxHP = 10;
-    int health;
+    [SerializeField] protected int maxHP = 10;
+    protected int health;
     [SerializeField] Animator animator;
     [Header("UI")]
     [SerializeField] HPBar healthBar;
@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
 
     protected virtual void Die()
     {
-        animator.SetTrigger("death");
+        animator?.SetTrigger("death");
         GetComponent<Collider2D>().enabled = false;
         GetComponent<EnemyMove>().enabled = false;
         StartCoroutine(Dis());
@@ -44,8 +44,8 @@ public class Health : MonoBehaviour
         health = maxHP;
         GetComponent<Collider2D>().enabled = true;
         GetComponent<EnemyMove>().enabled = true;
-        animator.Rebind();
-        animator.Update(0);
+        animator?.Rebind();
+        animator?.Update(0);
     }
 
     public bool IsAlive()
