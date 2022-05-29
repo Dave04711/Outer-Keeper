@@ -380,6 +380,7 @@ MonoBehaviour:
   animator: {fileID: 4199498802362463111}
   healthBar: {fileID: 4741202678298600329}
   itemPrefab: {fileID: 72735132678898484, guid: b6ae8dc1c766e2444808c62235124db5, type: 3}
+  metalShardPrefab: {fileID: 3323882810748200492, guid: 8fe7a21d6d2ead0488e42638e8f181f3, type: 3}
 --- !u!1001 &471317384884087707
 PrefabInstance:
   m_ObjectHideFlags: 0

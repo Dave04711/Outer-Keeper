@@ -22,6 +22,7 @@ public class PlayerActions : MonoBehaviour
     [SerializeField] Transform attackPoint;
     [SerializeField] float attackRange = 1;
     [SerializeField] LayerMask attackLayerMask;
+    public float slownessPercent = .7f;
     [Header("Consumable")]
     public ItemSO item;
 
@@ -160,7 +161,7 @@ public class PlayerActions : MonoBehaviour
             Destructable destructable = hits[i].GetComponent<Destructable>();
             if(destructable != null) { destructable.Hit(damage); }
             EnemyMove enemyMove = hits[i].GetComponent<EnemyMove>();
-            if(enemyMove != null) { enemyMove.Slowness(.7f); }
+            if(enemyMove != null) { enemyMove.Slowness(slownessPercent); }
             Health health = hits[i].GetComponent<Health>();
             if(health != null) { health.Damage(damage); }
         }
@@ -176,6 +177,11 @@ public class PlayerActions : MonoBehaviour
         {
             liftButton.SetIcon(_index, 2f, 0f);
         }
+    }
+
+    public void SwapAttackAnim(bool _p)
+    {
+        animator.SetBool("betterCombat", _p);
     }
 
     private void OnDrawGizmosSelected()

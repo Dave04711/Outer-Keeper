@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "RF8M407W1LV",
+    "m_SelectedDeviceId": "FFY5T17B15003544",
     "m_SelectedPackage": {
-        "deviceId": "RF8M407W1LV",
+        "deviceId": "FFY5T17B15003544",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 30659,
+        "processId": 2593,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,24 @@
             "deviceId": "RF8M407W1LV",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 30659,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 24796,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 24081,
+            "exited": false
+        },
+        {
+            "deviceId": "FFY5T17B15003544",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2593,
             "exited": false
         }
     ],

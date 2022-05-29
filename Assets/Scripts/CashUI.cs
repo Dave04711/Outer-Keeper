@@ -6,22 +6,12 @@ using TMPro;
 public class CashUI : MonoBehaviour
 {
     [SerializeField] TMP_Text cashTxt;
-    Animator animator;
+    [SerializeField] Animator animator;
+    [Space]
+    [SerializeField] TMP_Text cashTxt2;
+    [SerializeField] Animator animator2;
 
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
-
-    public void HideUI()
-    {
-        gameObject.SetActive(false);//TODO: animator
-    }
-    public void ShowUI()
-    {
-        gameObject.SetActive(true);
-    }
-
+    #region Cash
     public void ShowIncome(int _income)
     {
         StopAllCoroutines();
@@ -38,7 +28,7 @@ public class CashUI : MonoBehaviour
     {
         int cash = int.Parse(cashTxt.text);
         int steps = CannonShopManager.instance.cash - cash;
-        if(steps >= 100)
+        if (steps >= 100)
         {
             for (int i = 0; i <= steps; i++)
             {
@@ -71,4 +61,16 @@ public class CashUI : MonoBehaviour
     {
         animator.SetTrigger("reject");
     }
+    #endregion
+    #region Metal Shards
+    public void UpdateTxt2()
+    {
+        cashTxt2.text = CannonShopManager.instance.metalShards.ToString();
+    }
+
+    public void Reject2()
+    {
+        animator2.SetTrigger("reject");
+    }
+    #endregion
 }

@@ -23,6 +23,9 @@ public class CannonShopManager : MonoBehaviour
     [Space]
     public int cash;
     public CashUI cashUI;
+
+    public int metalShards;
+
     private void Start()
     {
         MakeSOClone();
@@ -52,6 +55,18 @@ public class CannonShopManager : MonoBehaviour
         cashUI.ShowIncome(_p);
     }
 
+    public void AddShards(int _p)
+    {
+        metalShards += _p;
+        cashUI.UpdateTxt2();
+    }
+
+    public void SpendShards(int _p)
+    {
+        metalShards -= _p;
+        cashUI.UpdateTxt2();
+    }
+
     public void SpendCash(int _p)
     {
         cashUI.ShowOutgo(_p);
@@ -61,5 +76,9 @@ public class CannonShopManager : MonoBehaviour
     public void Rejection()
     {
         cashUI.Reject();
+    }
+    public void Rejection2()
+    {
+        cashUI.Reject2();
     }
 }

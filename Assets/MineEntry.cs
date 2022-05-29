@@ -34,12 +34,12 @@ public class MineEntry : Health
         debris.SetActive(true);
         health = maxHP;
         entryCollider.enabled = true;
-        enemySpawn.canSpawn = false;
+        enemySpawn.StopSpawning();
     }
 
     IEnumerator TurnOnSpawning()
     {
         yield return wait4Spawn;
-        enemySpawn.canSpawn = true;
+        enemySpawn.StartSpawning();
     }
 }

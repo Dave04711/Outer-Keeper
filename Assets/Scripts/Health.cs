@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Health : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Health : MonoBehaviour
     [SerializeField] HPBar healthBar;
     [Header("LOOT")]
     [SerializeField] GameObject itemPrefab;
+    [SerializeField] GameObject metalShardPrefab;
 
     public void Damage(int _damage)
     {
@@ -35,7 +37,7 @@ public class Health : MonoBehaviour
         yield return new WaitForSeconds(.5f);
         DropItem();
         yield return new WaitForSeconds(1.5f);
-        gameObject.SetActive(false);
+        PathsManager.instance.GetComponent<EnemySpawn>().TurnOffEnemy(gameObject);
     }
 
     public void Respawn()
@@ -61,7 +63,14 @@ public class Health : MonoBehaviour
     {
         if(itemPrefab != null)
         {
-            var item = Instantiate(itemPrefab, transform.position, Quaternion.identity);
+            Instantiate(itemPrefab, transform.position, Quaternion.identity);
+        }
+        if(metalShardPrefab != null)
+        {
+            if(Random.value < .01f)
+            {
+                Instantiate(metalShardPrefab, transform.position, Quaternion.identity);
+            }
         }
     }
 }

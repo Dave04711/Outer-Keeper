@@ -14,6 +14,7 @@ public class DroppedLoot : MonoBehaviour
     [SerializeField] float radius = 3;
     [Space]
     [SerializeField] int value = 10;
+    [SerializeField] int metalShards = 0;
 
     bool tmp = false;
 
@@ -73,6 +74,7 @@ public class DroppedLoot : MonoBehaviour
     void Impact()
     {
         CannonShopManager.instance.AddCash(value);
+        CannonShopManager.instance.AddShards(metalShards);
         Destroy(gameObject);
     }
 

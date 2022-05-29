@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIContainer : MonoBehaviour
 {
@@ -19,4 +20,5 @@ public class UIContainer : MonoBehaviour
     public ActionButton buttonB;
     public GadgetButton buttonD;
     public GameOverPanel gameOverPanel;
+    public Image skillIcon;
 }

@@ -5,7 +5,7 @@ using System.Linq;
 
 public class EnemySpawn : MonoBehaviour
 {
-    public bool canSpawn = false;
+    [SerializeField] bool canSpawn = false;
     [SerializeField] int enemyCount = 50;
     [SerializeField] Transform parent;
     [SerializeField] List<GameObject> spawnList = new List<GameObject>();
@@ -15,6 +15,12 @@ public class EnemySpawn : MonoBehaviour
     float nextSpawnTime = 0;
     float fraction;
     [SerializeField] TownHealth town;
+    [Space]
+    [SerializeField] MineEntry mineEntry;
+    [SerializeField] int increase = 7;
+    int counter = 0;
+    public int waveIndex = 0;
+    int enemyMaxAmount;
 
     private void Awake()
     {
@@ -26,17 +32,25 @@ public class EnemySpawn : MonoBehaviour
         var enemy = Instantiate(spawnList[Random.Range(0,spawnList.Count)], parent);
         spawnedEnemies.Add(enemy);
         enemy.GetComponent<EnemyMove>().Init(PathsManager.instance.GetRandomPath());
+        counter++;
     }
 
     void Respawn(GameObject _enemy)
     {
         _enemy.GetComponent<EnemyMove>().Init(PathsManager.instance.GetRandomPath());
         TurnOn(_enemy);
+        counter++;
     }
 
     public void TurnOff(GameObject _enemy)
     {
         town.DamageTown();
+        _enemy.SetActive(false);
+        unusedEnemies.Add(_enemy);
+    }
+
+    public void TurnOffEnemy(GameObject _enemy)
+    {
         _enemy.SetActive(false);
         unusedEnemies.Add(_enemy);
     }
@@ -49,8 +63,25 @@ public class EnemySpawn : MonoBehaviour
         }
     }
 
+    public void StartSpawning()
+    {
+        CannonShopManager.instance.GetComponent<TownHealth>().score = waveIndex;
+        waveIndex++;
+        enemyMaxAmount = waveIndex * increase;
+        canSpawn = true;
+    }
+
+    public void StopSpawning()
+    {
+        canSpawn = false;
+        enemyMaxAmount = 0;
+        counter = 0;
+    }
+
     private void Update()
     {
+        if (!canSpawn) { return; }
+        if (counter >= enemyMaxAmount) { mineEntry.ResetCave(); }
         if (Time.time >= nextSpawnTime && canSpawn)
         {
             if (spawnedEnemies.Count < enemyCount)

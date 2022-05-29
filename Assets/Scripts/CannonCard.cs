@@ -10,7 +10,7 @@ public class CannonCard : MonoBehaviour
     public CannonSO cannonSO;
     [SerializeField] TMP_Text title;
     [SerializeField] Image cardImage;
-    [SerializeField] TMP_Text lvl;
+    //[SerializeField] TMP_Text lvl;
 
     private void Start()
     {
@@ -27,9 +27,18 @@ public class CannonCard : MonoBehaviour
 
     public void ChangeCannon()
     {
-        CannonShopManager.instance.currentCannon = cannonSO;
-        CannonShopManager.instance.MakeSOClone();
-        CannonShopManager.instance.cannonShop.gameObject.SetActive(false);
-        PauseManager.instance.TimeSet();
+        int metalShardsAmount = CannonShopManager.instance.metalShards;
+        if(metalShardsAmount > 0)
+        {
+            CannonShopManager.instance.SpendShards(1);
+            CannonShopManager.instance.currentCannon = cannonSO;
+            CannonShopManager.instance.MakeSOClone();
+            CannonShopManager.instance.cannonShop.gameObject.SetActive(false);
+            PauseManager.instance.TimeSet();
+        }
+        else
+        {
+            CannonShopManager.instance.Rejection2();
+        }
     }
 }
