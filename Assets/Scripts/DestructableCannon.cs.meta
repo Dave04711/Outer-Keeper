@@ -3,7 +3,10 @@ guid: f215f8b3632bcc842a8192d84ccdda26
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - CannonCratePrefab: {instanceID: 0}
+  - spawnPoint: {instanceID: 0}
+  - particlesPrefab: {fileID: 587472293530555285, guid: 19dead83879a3934f9a3d2575e66fdaf, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

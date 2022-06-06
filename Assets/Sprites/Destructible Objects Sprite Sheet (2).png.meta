@@ -192,6 +192,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1468,6 +1469,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Destructible Objects Sprite Sheet (2)_48: -7426749373889622834
+      Destructible Objects Sprite Sheet (2)_21: -5063464504575399143
+      Destructible Objects Sprite Sheet (2)_34: -1248235704683943975
+      Destructible Objects Sprite Sheet (2)_42: 8997117333367130952
+      Destructible Objects Sprite Sheet (2)_6: 6118929392764220079
+      Destructible Objects Sprite Sheet (2)_9: -6462537578917733897
+      Destructible Objects Sprite Sheet (2)_5: -3104362817620444685
+      Destructible Objects Sprite Sheet (2)_54: -8439308381151000310
+      Destructible Objects Sprite Sheet (2)_18: -3637789341096799314
+      Destructible Objects Sprite Sheet (2)_29: -8640962518599733768
+      Destructible Objects Sprite Sheet (2)_41: 8009050316475999313
+      Destructible Objects Sprite Sheet (2)_43: 8910792353857759515
+      Destructible Objects Sprite Sheet (2)_16: -5525608143160553915
+      Destructible Objects Sprite Sheet (2)_27: -3412550286802506103
+      Destructible Objects Sprite Sheet (2)_1: -7849497493625593203
+      Destructible Objects Sprite Sheet (2)_25: 5261627403306671564
+      Destructible Objects Sprite Sheet (2)_49: -8898684527977324804
+      Destructible Objects Sprite Sheet (2)_11: -8004204496436544162
+      Destructible Objects Sprite Sheet (2)_50: -7014831362864166128
+      Destructible Objects Sprite Sheet (2)_47: -3020875058233132690
+      Destructible Objects Sprite Sheet (2)_14: -608782858869429125
+      Destructible Objects Sprite Sheet (2)_20: -3131223706358836400
+      Destructible Objects Sprite Sheet (2)_4: -5363272247432485701
+      Destructible Objects Sprite Sheet (2)_23: -4428977793785633535
+      Destructible Objects Sprite Sheet (2)_2: -3388064360317134278
+      Destructible Objects Sprite Sheet (2)_15: 68403111283990104
+      Destructible Objects Sprite Sheet (2)_10: 4322972524330030519
+      Destructible Objects Sprite Sheet (2)_22: -3599839427194260731
+      Destructible Objects Sprite Sheet (2)_51: -5584865453639511739
+      Destructible Objects Sprite Sheet (2)_38: 6400054755214962613
+      Destructible Objects Sprite Sheet (2)_33: 3915351056724805589
+      Destructible Objects Sprite Sheet (2)_13: -6585412436258025278
+      Destructible Objects Sprite Sheet (2)_19: 7455363776165409280
+      Destructible Objects Sprite Sheet (2)_37: -8086315910005638254
+      Destructible Objects Sprite Sheet (2)_39: 732025027804133031
+      Destructible Objects Sprite Sheet (2)_53: -5455404417523500884
+      Destructible Objects Sprite Sheet (2)_17: -5717504809106016290
+      Destructible Objects Sprite Sheet (2)_31: -4617723750326241593
+      Destructible Objects Sprite Sheet (2)_3: 5890530328403498369
+      Destructible Objects Sprite Sheet (2)_44: 3481666164638049902
+      Destructible Objects Sprite Sheet (2)_12: 400179258877727235
+      Destructible Objects Sprite Sheet (2)_32: -6832867216355856458
+      Destructible Objects Sprite Sheet (2)_0: 8777227373726957184
+      Destructible Objects Sprite Sheet (2)_55: 5252594368917422796
+      Destructible Objects Sprite Sheet (2)_46: -6785543981407724638
+      Destructible Objects Sprite Sheet (2)_26: -3661730493405433465
+      Destructible Objects Sprite Sheet (2)_35: 4459178765069780579
+      Destructible Objects Sprite Sheet (2)_36: 1115651592356089233
+      Destructible Objects Sprite Sheet (2)_45: -3161677598582038574
+      Destructible Objects Sprite Sheet (2)_52: -2491933966221557135
+      Destructible Objects Sprite Sheet (2)_40: 5115398929142569072
+      Destructible Objects Sprite Sheet (2)_28: -6566608078334228720
+      Destructible Objects Sprite Sheet (2)_8: -2525244692214423933
+      Destructible Objects Sprite Sheet (2)_7: -1905685000579342931
+      Destructible Objects Sprite Sheet (2)_30: -3616139601574952092
+      Destructible Objects Sprite Sheet (2)_24: 2018464664924387283
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

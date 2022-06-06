@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -844,6 +845,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mini Golem Sprite Sheet_11: -1166813639320239918
+      Mini Golem Sprite Sheet_18: 2506693950563005930
+      Mini Golem Sprite Sheet_17: 8126926881044104213
+      Mini Golem Sprite Sheet_10: -456851265596281154
+      Mini Golem Sprite Sheet_26: 7408835478433736982
+      Mini Golem Sprite Sheet_15: -8162471159975587941
+      Mini Golem Sprite Sheet_9: 7096200858154294914
+      Mini Golem Sprite Sheet_7: -3013171148727623495
+      Mini Golem Sprite Sheet_29: 6241686534283357104
+      Mini Golem Sprite Sheet_13: 1548126372886911477
+      Mini Golem Sprite Sheet_0: -1596999484918499234
+      Mini Golem Sprite Sheet_19: -6668672719679400805
+      Mini Golem Sprite Sheet_21: 6634883003530336932
+      Mini Golem Sprite Sheet_2: -5868460566451133612
+      Mini Golem Sprite Sheet_25: -7570660213394696112
+      Mini Golem Sprite Sheet_4: -7432283234180737360
+      Mini Golem Sprite Sheet_8: -2136131063957134677
+      Mini Golem Sprite Sheet_24: -574065633853223597
+      Mini Golem Sprite Sheet_12: -6734946427670231230
+      Mini Golem Sprite Sheet_3: -6103444758372605895
+      Mini Golem Sprite Sheet_5: -8142460767393046711
+      Mini Golem Sprite Sheet_22: 139216771421556933
+      Mini Golem Sprite Sheet_1: 1691770311335750192
+      Mini Golem Sprite Sheet_6: -1094625303698739924
+      Mini Golem Sprite Sheet_14: -1011036417957276747
+      Mini Golem Sprite Sheet_23: -6020236067070322089
+      Mini Golem Sprite Sheet_16: 6723052835460641922
+      Mini Golem Sprite Sheet_20: 1152678435462789172
+      Mini Golem Sprite Sheet_28: 4294968934847949296
+      Mini Golem Sprite Sheet_27: -3483113168092833924
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

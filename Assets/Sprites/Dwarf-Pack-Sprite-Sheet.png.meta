@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -316,6 +317,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dwarf-Pack-Sprite-Sheet_7: -3399197808104785572
+      Dwarf-Pack-Sprite-Sheet_6: 1840537367893721936
+      Dwarf-Pack-Sprite-Sheet_2: 304923332426758915
+      Dwarf-Pack-Sprite-Sheet_4: 9045265907201288139
+      Dwarf-Pack-Sprite-Sheet_5: 6213168154990929541
+      Dwarf-Pack-Sprite-Sheet_3: 6233299156075434246
+      Dwarf-Pack-Sprite-Sheet_0: -9108420135212350343
+      Dwarf-Pack-Sprite-Sheet_1: -2504870768240799482
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

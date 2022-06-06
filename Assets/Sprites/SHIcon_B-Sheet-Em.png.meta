@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -436,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SHIcon_B-Sheet-Em_4: 4834127068790498793
+      SHIcon_B-Sheet-Em_10: 5815605547305841789
+      SHIcon_B-Sheet-Em_6: -1510364747520870215
+      SHIcon_B-Sheet-Em_11: -6457913737061894955
+      SHIcon_B-Sheet-Em_12: 2918321688631966467
+      SHIcon_B-Sheet-Em_8: -3689758942306815103
+      SHIcon_B-Sheet-Em_3: 6168875583642566370
+      SHIcon_B-Sheet-Em_7: 6921864886444861240
+      SHIcon_B-Sheet-Em_2: -3321979111089043337
+      SHIcon_B-Sheet-Em_5: -7041426501624732666
+      SHIcon_B-Sheet-Em_9: 8012217993730320659
+      SHIcon_B-Sheet-Em_1: -5806018133046548338
+      SHIcon_B-Sheet-Em_0: 6134778108591863965
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

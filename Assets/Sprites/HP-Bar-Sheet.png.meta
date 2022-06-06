@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -376,6 +377,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      HP-Bar-Sheet_1: -3357947109054571307
+      HP-Bar-Sheet_6: -3883494603206571182
+      HP-Bar-Sheet_2: 3894884027711487845
+      HP-Bar-Sheet_8: 1918861285891363262
+      HP-Bar-Sheet_9: -3231697222526010964
+      HP-Bar-Sheet_3: 7393087704084430087
+      HP-Bar-Sheet_4: 3149329814543358376
+      HP-Bar-Sheet_5: -8699581296110928893
+      HP-Bar-Sheet_7: -5957418968630663671
+      HP-Bar-Sheet_0: -3582265884115796474
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

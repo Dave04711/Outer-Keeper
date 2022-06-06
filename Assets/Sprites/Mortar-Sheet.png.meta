@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Mortar-Sheet_3: 1483104703810592547
+      Mortar-Sheet_4: -5977597616984477023
+      Mortar-Sheet_2: -5982681024936973567
+      Mortar-Sheet_0: 9189919751630791949
+      Mortar-Sheet_1: 3900983855038608041
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

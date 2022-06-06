@@ -8,6 +8,7 @@ public class DestructableCannonCrate : Destructable
     bool canBuild = true;
     [SerializeField] float radius = .5f;
     [SerializeField] Transform centerPoint;
+    [SerializeField] GameObject particlesPrefab;
 
     public override void Hit(int _damage)
     {
@@ -38,6 +39,15 @@ public class DestructableCannonCrate : Destructable
         sb.SetActive(true);
         yield return new WaitForSeconds(2);
         sb.SetActive(false);
+    }
+
+    public void Vanish(Transform newPos)
+    {
+        Vector3 tarPos = newPos.position + newPos.right * 2f - Vector3.up * .2f;
+        Vector3 offset = new Vector3(.15f, -.5f, 0);
+        Destroy(Instantiate(particlesPrefab, transform.position + offset, Quaternion.identity), 2f);
+        Destroy(Instantiate(particlesPrefab, tarPos + offset, Quaternion.identity), 2f);
+        transform.position = tarPos;
     }
 
     private void Update()

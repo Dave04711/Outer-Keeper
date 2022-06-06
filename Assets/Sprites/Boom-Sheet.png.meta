@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -712,6 +713,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Boom-Sheet_16: 7090048498642903123
+      Boom-Sheet_23: -387619206941162336
+      Boom-Sheet_3: -6837500147643600406
+      Boom-Sheet_12: -3788018972254125084
+      Boom-Sheet_10: -1912854049379843084
+      Boom-Sheet_14: 4694922298995436732
+      Boom-Sheet_15: 670474853582154312
+      Boom-Sheet_18: 5199878289831452940
+      Boom-Sheet_4: -290929052182162486
+      Boom-Sheet_17: 4485916934681959133
+      Boom-Sheet_5: 8120395813588803724
+      Boom-Sheet_6: -4958784574370521386
+      Boom-Sheet_19: -4141284231089524185
+      Boom-Sheet_2: -7154798587743195564
+      Boom-Sheet_8: 3648858813101875385
+      Boom-Sheet_21: 3688960706986031177
+      Boom-Sheet_9: 789062474720325120
+      Boom-Sheet_22: 7047341692543066948
+      Boom-Sheet_1: 5558658451568737959
+      Boom-Sheet_7: -1237487480547526140
+      Boom-Sheet_11: 6682309734336312647
+      Boom-Sheet_13: 3838776393542181834
+      Boom-Sheet_0: 2419669150526935961
+      Boom-Sheet_20: 1125493136603824563
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

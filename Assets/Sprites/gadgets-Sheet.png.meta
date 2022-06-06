@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      gadgets-Sheet_0: -8656183000813582534
+      gadgets-Sheet_2: -1998023547213606253
+      gadgets-Sheet_5: 4570035474933108871
+      gadgets-Sheet_4: -8192994616655806882
+      gadgets-Sheet_1: 3149201211139502884
+      gadgets-Sheet_3: -4520436224951585307
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

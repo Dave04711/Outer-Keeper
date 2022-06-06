@@ -36,6 +36,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Speech-bubble-Sheet-V2_2: 4409918370599868339
+      Speech-bubble-Sheet-V2_3: 5071375366125805668
+      Speech-bubble-Sheet-V2_1: 8417066212372973633
+      Speech-bubble-Sheet-V2_0: -7993793208956544834
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

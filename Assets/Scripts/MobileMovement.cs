@@ -10,7 +10,7 @@ public class MobileMovement : MonoBehaviour
     [SerializeField] float speed = 1;
     [SerializeField] float threshold;
     public float defSpeed;
-    [SerializeField] float slowness = .5f;
+    public float slowness = .5f;
 
     private void Awake()
     {

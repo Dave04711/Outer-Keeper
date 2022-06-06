@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Skill-Icon-2-Sheet_1: 8326432775587537431
+      Skill-Icon-2-Sheet_4: 3343801901773057976
+      Skill-Icon-2-Sheet_2: -3775455348115379691
+      Skill-Icon-2-Sheet_3: 996138983063428320
+      Skill-Icon-2-Sheet_0: 1436489720897217958
+      Skill-Icon-2-Sheet_5: 1101029304198473896
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

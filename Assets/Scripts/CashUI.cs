@@ -60,6 +60,8 @@ public class CashUI : MonoBehaviour
     public void Reject()
     {
         animator.SetTrigger("reject");
+        StopAllCoroutines();
+        cashTxt.text = CannonShopManager.instance.cash.ToString();
     }
     #endregion
     #region Metal Shards

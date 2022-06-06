@@ -234,6 +234,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1816,6 +1817,77 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Golem_Sprites_3: 1374511030834435623
+      Golem_Sprites_68: 1360140248593216444
+      Golem_Sprites_45: -2384096076878338366
+      Golem_Sprites_18: -5936654917193118821
+      Golem_Sprites_60: -8914795444040801337
+      Golem_Sprites_49: -3074578572261608430
+      Golem_Sprites_29: -2493210985784799101
+      Golem_Sprites_8: 934808974674225200
+      Golem_Sprites_48: -5252453848551786834
+      Golem_Sprites_51: -7478313476526306808
+      Golem_Sprites_31: -3234470038736379300
+      Golem_Sprites_44: 3558788833447674628
+      Golem_Sprites_32: -8726246375219264696
+      Golem_Sprites_17: 1600842107857648717
+      Golem_Sprites_40: -1021861747014751669
+      Golem_Sprites_23: 2841628515977028305
+      Golem_Sprites_35: 2438009412533757275
+      Golem_Sprites_24: -522361441335303610
+      Golem_Sprites_22: -5639908567274607550
+      Golem_Sprites_20: 3846039820993763763
+      Golem_Sprites_33: -7311839601760168219
+      Golem_Sprites_53: -3563385484491201564
+      Golem_Sprites_47: -2614504359307576024
+      Golem_Sprites_42: 5547065513418937161
+      Golem_Sprites_63: -4566085318437974912
+      Golem_Sprites_6: 6217888702970470507
+      Golem_Sprites_57: 8586604535214917722
+      Golem_Sprites_36: -4718051516065888722
+      Golem_Sprites_0: -3070312615497937021
+      Golem_Sprites_39: 7290446515924162535
+      Golem_Sprites_1: -8788017962742651520
+      Golem_Sprites_4: 5483729045794036587
+      Golem_Sprites_66: -4599490811176242982
+      Golem_Sprites_56: -7977493669111957217
+      Golem_Sprites_11: -4819344559671230129
+      Golem_Sprites_65: -7166702976773975426
+      Golem_Sprites_64: 2904791591028775324
+      Golem_Sprites_38: -4941425505727094683
+      Golem_Sprites_58: -7627492954048790235
+      Golem_Sprites_7: 9060859120415726571
+      Golem_Sprites_37: 1956712403011446930
+      Golem_Sprites_30: -7576911543433665833
+      Golem_Sprites_50: 4453057493689438720
+      Golem_Sprites_55: -2826388262934149589
+      Golem_Sprites_27: -2558205732409403404
+      Golem_Sprites_46: 2121364928517530188
+      Golem_Sprites_28: -6985029811476458379
+      Golem_Sprites_16: -832264436888542047
+      Golem_Sprites_14: 8143535666072691395
+      Golem_Sprites_62: -2895836132270444308
+      Golem_Sprites_19: 5351300865115287510
+      Golem_Sprites_25: -8714499661851276746
+      Golem_Sprites_52: -1315672297455608605
+      Golem_Sprites_10: 4991358858747862768
+      Golem_Sprites_9: 8387023842616409440
+      Golem_Sprites_2: -2220050059531348545
+      Golem_Sprites_5: 9158357705986482922
+      Golem_Sprites_12: -6037592915399454515
+      Golem_Sprites_61: -4868582523596211240
+      Golem_Sprites_41: -2499887179659579406
+      Golem_Sprites_59: 6986495727106096485
+      Golem_Sprites_69: -1004894306410292119
+      Golem_Sprites_26: -8143770827836952887
+      Golem_Sprites_43: -4486267730831365038
+      Golem_Sprites_13: -7962629407176638765
+      Golem_Sprites_34: -7028545669646131776
+      Golem_Sprites_54: 992598729134885230
+      Golem_Sprites_15: 8843892861128138757
+      Golem_Sprites_21: 9025840917534020101
+      Golem_Sprites_67: 5124123860320758601
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

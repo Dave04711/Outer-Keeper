@@ -22,6 +22,7 @@ public class CannonCrate : Interacting
         playerActions = Player.instance.GetComponent<PlayerActions>();
         movement = Player.instance.GetComponent<MobileMovement>();
         cannonRadius = CannonShopManager.instance.currentCannon.range;
+        CannonShopManager.instance.currentCannonGameObject = gameObject;
     }
 
     private void Update()

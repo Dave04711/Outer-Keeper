@@ -99,6 +99,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -736,6 +737,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Cannon-Icons-A-Sheet_5: 6072584940779977686
+      Cannon-Icons-A-Sheet_17: 7996704783413319983
+      Cannon-Icons-A-Sheet_1: -8048227865787193375
+      Cannon-Icons-A-Sheet_9: 3680809101372332779
+      Cannon-Icons-A-Sheet_22: 9124410243271151749
+      Cannon-Icons-A-Sheet_21: 7963057533823493425
+      Cannon-Icons-A-Sheet_6: -5795586456406671114
+      Cannon-Icons-A-Sheet_4: 5440825599060735265
+      Cannon-Icons-A-Sheet_16: 1251240216990836526
+      Cannon-Icons-A-Sheet_18: -6021447962269451232
+      Cannon-Icons-A-Sheet_15: -1721483595436911078
+      Cannon-Icons-A-Sheet_3: -7674434632895253576
+      Cannon-Icons-A-Sheet_14: -969562464750771239
+      Cannon-Icons-A-Sheet_11: 125458493920661151
+      Cannon-Icons-A-Sheet_0: -8558769279054718941
+      Cannon-Icons-A-Sheet_20: -6625565783792755852
+      Cannon-Icons-A-Sheet_7: -4104734821998062497
+      Cannon-Icons-A-Sheet_12: -7528378926645926226
+      Cannon-Icons-A-Sheet_24: 5452182951372744599
+      Cannon-Icons-A-Sheet_8: -7851569078320823207
+      Cannon-Icons-A-Sheet_10: 5643075245873559215
+      Cannon-Icons-A-Sheet_23: -129696153682349199
+      Cannon-Icons-A-Sheet_13: 2318944471151628199
+      Cannon-Icons-A-Sheet_2: -4236465055303205976
+      Cannon-Icons-A-Sheet_19: 2247558978757388518
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

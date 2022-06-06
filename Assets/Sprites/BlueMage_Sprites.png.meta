@@ -324,6 +324,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2538,6 +2539,107 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: dbf7f677871e64a45a467407ead0ac05, type: 3}
       name: _Emission
+    nameFileIdTable:
+      BlueMage_Sprites_45: 7570003626311187420
+      BlueMage_Sprites_84: 6731857733779142707
+      BlueMage_Sprites_17: -2148309629403657492
+      BlueMage_Sprites_85: -9138922421534480004
+      BlueMage_Sprites_96: -5686116654420654266
+      BlueMage_Sprites_69: -580453362897456082
+      BlueMage_Sprites_93: 8587839111279600847
+      BlueMage_Sprites_37: 3458003319601589899
+      BlueMage_Sprites_62: -7672436985878298123
+      BlueMage_Sprites_68: -4098385438701053392
+      BlueMage_Sprites_36: 2540608339550098687
+      BlueMage_Sprites_56: 427483466843172307
+      BlueMage_Sprites_60: 988490528229666265
+      BlueMage_Sprites_82: -8349079172832190500
+      BlueMage_Sprites_40: -2594687188028607314
+      BlueMage_Sprites_74: 3970775714221965764
+      BlueMage_Sprites_20: -8151373572851668832
+      BlueMage_Sprites_87: 3531257418731897747
+      BlueMage_Sprites_43: 6864276464567273636
+      BlueMage_Sprites_58: 6059832600904841286
+      BlueMage_Sprites_75: -2321078236759488151
+      BlueMage_Sprites_12: -5191144091905592584
+      BlueMage_Sprites_30: 6565171895917994125
+      BlueMage_Sprites_52: -8919885022262318150
+      BlueMage_Sprites_6: 121179636798023734
+      BlueMage_Sprites_86: 3761865069116931086
+      BlueMage_Sprites_90: 3216596677292651895
+      BlueMage_Sprites_18: 8662175555564826786
+      BlueMage_Sprites_35: 6099557043391819547
+      BlueMage_Sprites_80: 8211605347244610957
+      BlueMage_Sprites_70: -3559313848550482362
+      BlueMage_Sprites_73: 5281455411129053121
+      BlueMage_Sprites_31: -4421212713503598257
+      BlueMage_Sprites_92: 8599020885635904110
+      BlueMage_Sprites_8: 1114227758078267258
+      BlueMage_Sprites_27: 3422986686423862411
+      BlueMage_Sprites_33: -2404788441605879103
+      BlueMage_Sprites_99: 6091344757137394815
+      BlueMage_Sprites_53: 2726822641418788128
+      BlueMage_Sprites_98: 7418101110098290693
+      BlueMage_Sprites_7: 1712572717860161649
+      BlueMage_Sprites_47: -7596559184673096069
+      BlueMage_Sprites_49: -6421001110046361893
+      BlueMage_Sprites_91: -1070421742411229001
+      BlueMage_Sprites_83: -6602644242928931175
+      BlueMage_Sprites_21: -3003844128226534030
+      BlueMage_Sprites_28: -8733251175260246329
+      BlueMage_Sprites_29: 5548159435290395748
+      BlueMage_Sprites_61: -613450069718077237
+      BlueMage_Sprites_64: -7741508622392562714
+      BlueMage_Sprites_25: -6932952382963380567
+      BlueMage_Sprites_24: -739944545644186574
+      BlueMage_Sprites_4: -352623925795390882
+      BlueMage_Sprites_23: 8410475913702309508
+      BlueMage_Sprites_44: 2120827959542172879
+      BlueMage_Sprites_65: -3137419254329628583
+      BlueMage_Sprites_41: 4881141347929054841
+      BlueMage_Sprites_0: 9213987883630002970
+      BlueMage_Sprites_71: -629739022056166525
+      BlueMage_Sprites_46: 5752619774038106095
+      BlueMage_Sprites_14: 3916186466889951666
+      BlueMage_Sprites_9: -5210068766915671651
+      BlueMage_Sprites_77: -5372666537661915460
+      BlueMage_Sprites_2: -808206705391319300
+      BlueMage_Sprites_95: 2354723670779145995
+      BlueMage_Sprites_42: -2189570430403643028
+      BlueMage_Sprites_78: 8387277474960151662
+      BlueMage_Sprites_57: 214565245371780184
+      BlueMage_Sprites_54: -3852966524192089694
+      BlueMage_Sprites_89: -7234676922613331161
+      BlueMage_Sprites_13: -9108104245436038986
+      BlueMage_Sprites_63: -5263094967187285166
+      BlueMage_Sprites_15: 5873262795155242749
+      BlueMage_Sprites_51: -1181886729253526430
+      BlueMage_Sprites_22: 8615558212618207317
+      BlueMage_Sprites_5: 6454444472180326926
+      BlueMage_Sprites_38: 718830878848708180
+      BlueMage_Sprites_10: 2063921448647551953
+      BlueMage_Sprites_81: 3468908157955399283
+      BlueMage_Sprites_94: 4572688980264587219
+      BlueMage_Sprites_39: -2658855250798221408
+      BlueMage_Sprites_50: -8095828623125123197
+      BlueMage_Sprites_48: -2311690831320800141
+      BlueMage_Sprites_79: -7613728507143208049
+      BlueMage_Sprites_97: 7967322380620273080
+      BlueMage_Sprites_3: 2963209868660643897
+      BlueMage_Sprites_19: 7671440669286618322
+      BlueMage_Sprites_26: -3745067287249483078
+      BlueMage_Sprites_16: -8191274039262522842
+      BlueMage_Sprites_55: 4946566047088579740
+      BlueMage_Sprites_72: 5238483919737269369
+      BlueMage_Sprites_32: -8438762889646061644
+      BlueMage_Sprites_59: -4340128201975785522
+      BlueMage_Sprites_1: -13992431522750535
+      BlueMage_Sprites_34: 8477003726933594072
+      BlueMage_Sprites_66: -8306996794932150506
+      BlueMage_Sprites_11: -7770037180350441600
+      BlueMage_Sprites_67: 4670955456104737038
+      BlueMage_Sprites_88: 5379692232162260471
+      BlueMage_Sprites_76: -6027886609192254090
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

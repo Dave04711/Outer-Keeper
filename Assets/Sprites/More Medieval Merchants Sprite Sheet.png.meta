@@ -384,6 +384,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3016,6 +3017,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      More Medieval Merchants Sprite Sheet_42: -7905323648725208949
+      More Medieval Merchants Sprite Sheet_108: -2906626397848727672
+      More Medieval Merchants Sprite Sheet_55: 7228781222225245559
+      More Medieval Merchants Sprite Sheet_73: 5579100987017102375
+      More Medieval Merchants Sprite Sheet_3: -1237863079044198171
+      More Medieval Merchants Sprite Sheet_114: 7386829191227961759
+      More Medieval Merchants Sprite Sheet_70: -2023937093483375740
+      More Medieval Merchants Sprite Sheet_88: -9135708309596197212
+      More Medieval Merchants Sprite Sheet_46: 634334059289376583
+      More Medieval Merchants Sprite Sheet_110: -3627372658900621111
+      More Medieval Merchants Sprite Sheet_27: 1065658907834064498
+      More Medieval Merchants Sprite Sheet_56: -1081574746152909453
+      More Medieval Merchants Sprite Sheet_93: -4853416238703751469
+      More Medieval Merchants Sprite Sheet_79: -2850965565076461309
+      More Medieval Merchants Sprite Sheet_28: -3567690665631475247
+      More Medieval Merchants Sprite Sheet_26: -1490124901861445590
+      More Medieval Merchants Sprite Sheet_6: 7523359047874606895
+      More Medieval Merchants Sprite Sheet_40: 3452314361069900651
+      More Medieval Merchants Sprite Sheet_12: 3679617939047679323
+      More Medieval Merchants Sprite Sheet_69: 3230623494866073277
+      More Medieval Merchants Sprite Sheet_105: 5928316591133310740
+      More Medieval Merchants Sprite Sheet_89: 3034539674571072315
+      More Medieval Merchants Sprite Sheet_44: -9065134322129800673
+      More Medieval Merchants Sprite Sheet_49: 8126006326393364303
+      More Medieval Merchants Sprite Sheet_18: -2952504355062951026
+      More Medieval Merchants Sprite Sheet_90: 6177367266942281398
+      More Medieval Merchants Sprite Sheet_83: -4832821745740736200
+      More Medieval Merchants Sprite Sheet_58: 9073182508010093486
+      More Medieval Merchants Sprite Sheet_63: 2323089242799216904
+      More Medieval Merchants Sprite Sheet_91: 7028939710600390055
+      More Medieval Merchants Sprite Sheet_115: -5591114035342746950
+      More Medieval Merchants Sprite Sheet_98: 1908256836864403963
+      More Medieval Merchants Sprite Sheet_66: 4141839848958131608
+      More Medieval Merchants Sprite Sheet_113: 3974341317453197722
+      More Medieval Merchants Sprite Sheet_11: 7869193143438419139
+      More Medieval Merchants Sprite Sheet_80: 6907337765128980236
+      More Medieval Merchants Sprite Sheet_96: 6046200352093703306
+      More Medieval Merchants Sprite Sheet_62: 2728069006771523782
+      More Medieval Merchants Sprite Sheet_21: 3063713733947548673
+      More Medieval Merchants Sprite Sheet_29: -4976629930625336070
+      More Medieval Merchants Sprite Sheet_15: -1527510115681839092
+      More Medieval Merchants Sprite Sheet_43: 1620533280479746209
+      More Medieval Merchants Sprite Sheet_37: 2116291119014064404
+      More Medieval Merchants Sprite Sheet_17: -1419518122528751366
+      More Medieval Merchants Sprite Sheet_39: -1096913737254717133
+      More Medieval Merchants Sprite Sheet_82: -6255428858040327884
+      More Medieval Merchants Sprite Sheet_61: 917565269920106786
+      More Medieval Merchants Sprite Sheet_104: -7212404758717132188
+      More Medieval Merchants Sprite Sheet_107: 3298948343292220562
+      More Medieval Merchants Sprite Sheet_45: -311584541792432793
+      More Medieval Merchants Sprite Sheet_20: -1736532860459347129
+      More Medieval Merchants Sprite Sheet_47: -3376101510310455269
+      More Medieval Merchants Sprite Sheet_86: 59458396510426340
+      More Medieval Merchants Sprite Sheet_41: 3983234087532062007
+      More Medieval Merchants Sprite Sheet_1: 4446092172651509652
+      More Medieval Merchants Sprite Sheet_81: -6462383748124930677
+      More Medieval Merchants Sprite Sheet_54: -7161308786599458405
+      More Medieval Merchants Sprite Sheet_94: 1110028890883339927
+      More Medieval Merchants Sprite Sheet_118: 7354119149992408223
+      More Medieval Merchants Sprite Sheet_103: -1787466300564796923
+      More Medieval Merchants Sprite Sheet_38: 2429778509679138864
+      More Medieval Merchants Sprite Sheet_32: -8689160959251928708
+      More Medieval Merchants Sprite Sheet_77: -6041963661893503530
+      More Medieval Merchants Sprite Sheet_36: -5796301986287409598
+      More Medieval Merchants Sprite Sheet_51: 38872960285820114
+      More Medieval Merchants Sprite Sheet_76: 3621874917368183589
+      More Medieval Merchants Sprite Sheet_14: -6483715436376756577
+      More Medieval Merchants Sprite Sheet_64: 6757816240449919358
+      More Medieval Merchants Sprite Sheet_0: 1311531025424172765
+      More Medieval Merchants Sprite Sheet_68: -6830634157979347964
+      More Medieval Merchants Sprite Sheet_5: -4306017678227877833
+      More Medieval Merchants Sprite Sheet_109: -4375674639200265391
+      More Medieval Merchants Sprite Sheet_60: 1474451628849520343
+      More Medieval Merchants Sprite Sheet_74: 6331752477892463094
+      More Medieval Merchants Sprite Sheet_7: 2646665803616428592
+      More Medieval Merchants Sprite Sheet_99: 3831725031346499664
+      More Medieval Merchants Sprite Sheet_85: 6443355557653966337
+      More Medieval Merchants Sprite Sheet_116: 3450347209309862473
+      More Medieval Merchants Sprite Sheet_2: 1535111278522824007
+      More Medieval Merchants Sprite Sheet_71: -5817486489841545970
+      More Medieval Merchants Sprite Sheet_30: -5120168772695548016
+      More Medieval Merchants Sprite Sheet_87: 6264124987817244092
+      More Medieval Merchants Sprite Sheet_23: 204376264127052593
+      More Medieval Merchants Sprite Sheet_25: 5528518643191895343
+      More Medieval Merchants Sprite Sheet_75: -7637380868744907715
+      More Medieval Merchants Sprite Sheet_19: -5890550218873480746
+      More Medieval Merchants Sprite Sheet_112: 7742318671446827872
+      More Medieval Merchants Sprite Sheet_4: 6647786806115431622
+      More Medieval Merchants Sprite Sheet_97: -4493184054232497825
+      More Medieval Merchants Sprite Sheet_117: 780581565168572600
+      More Medieval Merchants Sprite Sheet_13: 2456834747926105785
+      More Medieval Merchants Sprite Sheet_92: 4992802637784944537
+      More Medieval Merchants Sprite Sheet_102: -3974548713201188957
+      More Medieval Merchants Sprite Sheet_9: -5250750539249591259
+      More Medieval Merchants Sprite Sheet_48: 1300837597012050322
+      More Medieval Merchants Sprite Sheet_52: 1124554904192579110
+      More Medieval Merchants Sprite Sheet_34: -3261931044618222527
+      More Medieval Merchants Sprite Sheet_53: -4225440478350649536
+      More Medieval Merchants Sprite Sheet_10: -5095362847516213695
+      More Medieval Merchants Sprite Sheet_31: -6858850122080764935
+      More Medieval Merchants Sprite Sheet_8: 632000591833792129
+      More Medieval Merchants Sprite Sheet_59: -1467785493865768282
+      More Medieval Merchants Sprite Sheet_111: 83012819358430864
+      More Medieval Merchants Sprite Sheet_78: 1214963400049145904
+      More Medieval Merchants Sprite Sheet_119: 8145454238213727797
+      More Medieval Merchants Sprite Sheet_57: 1753441446842231497
+      More Medieval Merchants Sprite Sheet_50: 9003928876004713001
+      More Medieval Merchants Sprite Sheet_16: 7094286747185375820
+      More Medieval Merchants Sprite Sheet_67: 6413154057396688663
+      More Medieval Merchants Sprite Sheet_65: -5439137988902136519
+      More Medieval Merchants Sprite Sheet_100: -3445527625393912271
+      More Medieval Merchants Sprite Sheet_22: -169525849805783197
+      More Medieval Merchants Sprite Sheet_35: 1780802514978257967
+      More Medieval Merchants Sprite Sheet_101: -5781304835430350014
+      More Medieval Merchants Sprite Sheet_84: 937564069155757116
+      More Medieval Merchants Sprite Sheet_33: 996520449400864390
+      More Medieval Merchants Sprite Sheet_72: 8183294354441319022
+      More Medieval Merchants Sprite Sheet_24: 5487864266526045029
+      More Medieval Merchants Sprite Sheet_95: 1746485370098790829
+      More Medieval Merchants Sprite Sheet_106: -1563284579559526314
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -15,13 +15,17 @@ public class BetterCombat : Skill2Buy
                 break;
             case 0:
                 playerActions.slownessPercent = .5f;
-                playerActions.damage = 2;
+                playerActions.damage += 1;
                 break;
             case 1:
-                Debug.Log("poziom 2B");
+                playerActions.SwapAttackAnim(true);
+                playerActions.damage += 2;
+                playerActions.attackRange = 3;
                 break;
             case 2:
-                Debug.Log("poziom 3C");
+                playerActions.damage += 1;
+                playerActions.attackType = AttackType.circle;
+                priceObject.SetActive(false);
                 break;
         }
     }

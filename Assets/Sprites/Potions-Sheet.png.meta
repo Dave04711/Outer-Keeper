@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Potions-Sheet_0: -135249331967781397
+      Potions-Sheet_4: -7403533091565285345
+      Potions-Sheet_3: -3706397605369213735
+      Potions-Sheet_2: 5430691876015683559
+      Potions-Sheet_1: -8418908098770820844
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

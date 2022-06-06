@@ -177,6 +177,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1348,6 +1349,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dwarf Worker Sprite Sheet_39: 6607027351516812708
+      Dwarf Worker Sprite Sheet_24: -2654029768824573362
+      Dwarf Worker Sprite Sheet_17: -4607335106228555116
+      Dwarf Worker Sprite Sheet_0: 4006848151421755342
+      Dwarf Worker Sprite Sheet_28: 3732840459345419
+      Dwarf Worker Sprite Sheet_14: -6165232599983617700
+      Dwarf Worker Sprite Sheet_48: -2426854472867871717
+      Dwarf Worker Sprite Sheet_47: -2191107485962888573
+      Dwarf Worker Sprite Sheet_6: 2089642260926983185
+      Dwarf Worker Sprite Sheet_35: -4608262877282574379
+      Dwarf Worker Sprite Sheet_10: 2830261697486999774
+      Dwarf Worker Sprite Sheet_46: -6524056128449592404
+      Dwarf Worker Sprite Sheet_5: 2934548679206711556
+      Dwarf Worker Sprite Sheet_8: 3634713924284019611
+      Dwarf Worker Sprite Sheet_7: 8720333657908446585
+      Dwarf Worker Sprite Sheet_25: 4353347722156272669
+      Dwarf Worker Sprite Sheet_33: 9170533801465825676
+      Dwarf Worker Sprite Sheet_9: -8658099655580837295
+      Dwarf Worker Sprite Sheet_20: 8935133287713702051
+      Dwarf Worker Sprite Sheet_13: 6823880255146070106
+      Dwarf Worker Sprite Sheet_4: -644647440630668888
+      Dwarf Worker Sprite Sheet_44: 1751172556172851084
+      Dwarf Worker Sprite Sheet_41: 56081069475223321
+      Dwarf Worker Sprite Sheet_3: 6822314287612690301
+      Dwarf Worker Sprite Sheet_38: -5673247583917034658
+      Dwarf Worker Sprite Sheet_27: -4731423546705767071
+      Dwarf Worker Sprite Sheet_16: 1768030773334626650
+      Dwarf Worker Sprite Sheet_18: -6983362131148980314
+      Dwarf Worker Sprite Sheet_26: 4476525632910658695
+      Dwarf Worker Sprite Sheet_1: -5154568882879870726
+      Dwarf Worker Sprite Sheet_36: 6094148692019261042
+      Dwarf Worker Sprite Sheet_40: 7702140670266836588
+      Dwarf Worker Sprite Sheet_11: 8734793485240643044
+      Dwarf Worker Sprite Sheet_31: 2725369923633334920
+      Dwarf Worker Sprite Sheet_2: 3525668637875528948
+      Dwarf Worker Sprite Sheet_29: -7559131096849735698
+      Dwarf Worker Sprite Sheet_30: 7148481771708180968
+      Dwarf Worker Sprite Sheet_43: -1093916691764720662
+      Dwarf Worker Sprite Sheet_32: -6710468700192673369
+      Dwarf Worker Sprite Sheet_34: -944311712338512650
+      Dwarf Worker Sprite Sheet_19: -9207908361239197779
+      Dwarf Worker Sprite Sheet_49: -9207723201210599486
+      Dwarf Worker Sprite Sheet_21: -7159172794051064028
+      Dwarf Worker Sprite Sheet_15: 6933273769433139863
+      Dwarf Worker Sprite Sheet_12: -3683967243528157217
+      Dwarf Worker Sprite Sheet_45: -7022826959045150472
+      Dwarf Worker Sprite Sheet_23: 7743536018720954564
+      Dwarf Worker Sprite Sheet_37: 8879907098269444391
+      Dwarf Worker Sprite Sheet_22: 6012191892665902281
+      Dwarf Worker Sprite Sheet_42: -543654918616245216
+      Dwarf Worker Sprite Sheet_50: -6164855822122128241
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

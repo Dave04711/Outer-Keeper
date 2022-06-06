@@ -39,6 +39,7 @@ public class Cannon : MonoBehaviour
         }
         else if (targeted)
         {
+            Debug.Log(target.name);
             Rotate2Point(target);
             if (Time.time >= nextTickTime)
             {

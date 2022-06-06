@@ -21,6 +21,7 @@ public class EnemySpawn : MonoBehaviour
     int counter = 0;
     public int waveIndex = 0;
     int enemyMaxAmount;
+    [SerializeField] GameObject overlay;
 
     private void Awake()
     {
@@ -76,6 +77,23 @@ public class EnemySpawn : MonoBehaviour
         canSpawn = false;
         enemyMaxAmount = 0;
         counter = 0;
+    }
+
+    public void FreezeThem()
+    {
+        StartCoroutine(FreezeThemCor());
+    }
+
+    IEnumerator FreezeThemCor()
+    {
+        EnemyMove[] enemyMoves = parent.GetComponentsInChildren<EnemyMove>();
+        foreach (EnemyMove enemyMove in enemyMoves) { enemyMove.speed = 0; }
+        canSpawn = false;
+        overlay.SetActive(true);
+        yield return new WaitForSeconds(10);
+        foreach (EnemyMove enemyMove in enemyMoves) { enemyMove.Restore(); }
+        canSpawn = true;
+        overlay.SetActive(false);
     }
 
     private void Update()

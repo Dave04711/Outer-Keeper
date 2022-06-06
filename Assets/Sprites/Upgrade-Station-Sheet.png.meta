@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -498,6 +499,23 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 143fdc5b1d684c74983e312c9ca1cd8c, type: 3}
       name: _Emission
+    nameFileIdTable:
+      Upgrade-Station-Sheet_5: -5291855772986532708
+      Upgrade-Station-Sheet_8: -2950818852614938343
+      Upgrade-Station-Sheet_3: 2465834183927691124
+      Upgrade-Station-Sheet_15: -8624859281674979116
+      Upgrade-Station-Sheet_9: -2482058388490606611
+      Upgrade-Station-Sheet_1: 4524836188254607519
+      Upgrade-Station-Sheet_0: -3040060320456192071
+      Upgrade-Station-Sheet_11: 1502016788119862218
+      Upgrade-Station-Sheet_6: 8760649531903589634
+      Upgrade-Station-Sheet_14: -7163183702336146635
+      Upgrade-Station-Sheet_10: -1165597531163407989
+      Upgrade-Station-Sheet_2: 5132370114117760995
+      Upgrade-Station-Sheet_7: 125049808994172942
+      Upgrade-Station-Sheet_12: 381862215810098528
+      Upgrade-Station-Sheet_13: -5922039776090683498
+      Upgrade-Station-Sheet_4: 6091323450418863328
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UI;
 
 public class PlayerActions : MonoBehaviour
 {
@@ -20,11 +21,14 @@ public class PlayerActions : MonoBehaviour
     [Header("Attack")]
     public int damage = 1;
     [SerializeField] Transform attackPoint;
-    [SerializeField] float attackRange = 1;
+    public float attackRange = 1;
     [SerializeField] LayerMask attackLayerMask;
     public float slownessPercent = .7f;
+    [SerializeField] GameObject lineParticles;
+    [SerializeField] GameObject circleParticles;
     [Header("Consumable")]
     public ItemSO item;
+    public AttackType attackType = AttackType.line;
 
     private void Awake()
     {
@@ -136,6 +140,13 @@ public class PlayerActions : MonoBehaviour
         }
         animator.SetBool("carry", loaded);
         rangeIndicator.gameObject.SetActive(loaded);
+        LockButtons(loaded);
+    }
+
+    void LockButtons(bool _p)
+    {
+        UIContainer.instance.buttonC.interactable = !_p;
+        UIContainer.instance.buttonD.GetComponent<Button>().interactable = !_p;
     }
 
     public void SetRangeIndicator(float _range)
@@ -155,7 +166,7 @@ public class PlayerActions : MonoBehaviour
     public void Attack()
     {
         //Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, attackLayerMask);
-        Collider2D[] hits = Physics2D.OverlapBoxAll(attackPoint.position + Vector3.right * attackRange / 2, new Vector2(attackRange, 1), 0, attackLayerMask);
+        Collider2D[] hits = Physics2D.OverlapBoxAll(attackPoint.position + transform.right * attackRange / 2, new Vector2(attackRange, 1), 0, attackLayerMask);
         for (int i = 0; i < hits.Length; i++)
         {
             Destructable destructable = hits[i].GetComponent<Destructable>();
@@ -164,6 +175,34 @@ public class PlayerActions : MonoBehaviour
             if(enemyMove != null) { enemyMove.Slowness(slownessPercent); }
             Health health = hits[i].GetComponent<Health>();
             if(health != null) { health.Damage(damage); }
+        }
+    }
+
+    public void BetterAttack() 
+    {
+        Collider2D[] hits;
+        switch (attackType)
+        {
+            default: return;
+            case AttackType.line:
+                lineParticles.SetActive(false);
+                lineParticles.SetActive(true);
+                hits = Physics2D.OverlapBoxAll(attackPoint.position + transform.right * attackRange / 2, new Vector2(attackRange, 1), 0, attackLayerMask);
+                break;
+            case AttackType.circle:
+                circleParticles.SetActive(false);
+                circleParticles.SetActive(true);
+                hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, attackLayerMask);
+                break;
+        }
+        for (int i = 0; i < hits.Length; i++)
+        {
+            Destructable destructable = hits[i].GetComponent<Destructable>();
+            if (destructable != null) { destructable.Hit(damage); }
+            EnemyMove enemyMove = hits[i].GetComponent<EnemyMove>();
+            if (enemyMove != null) { enemyMove.Slowness(slownessPercent); }
+            Health health = hits[i].GetComponent<Health>();
+            if (health != null) { health.Damage(damage); }
         }
     }
 
@@ -191,6 +230,12 @@ public class PlayerActions : MonoBehaviour
         Gizmos.DrawSphere(center.position, .125f);
         Gizmos.color = Color.red;
         //Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-        Gizmos.DrawWireCube(attackPoint.position + Vector3.right * attackRange / 2, new Vector2(attackRange, 1));
+        Gizmos.DrawWireCube(attackPoint.position + transform.right * attackRange / 2, new Vector2(attackRange, 1));
+        if(attackType == AttackType.circle)
+        {
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
     }
 }
+
+public enum AttackType { line, circle }

@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -508,6 +509,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Upgrade-Stone-Sprite-Sheet-Emission_15: -4355791278188680060
+      Upgrade-Stone-Sprite-Sheet-Emission_14: -3819153768048160676
+      Upgrade-Stone-Sprite-Sheet-Emission_12: 6344967589643558650
+      Upgrade-Stone-Sprite-Sheet-Emission_9: 6802231391578176665
+      Upgrade-Stone-Sprite-Sheet-Emission_13: 4150920526456768316
+      Upgrade-Stone-Sprite-Sheet-Emission_0: -7072799820822211093
+      Upgrade-Stone-Sprite-Sheet-Emission_10: 4648590797195442591
+      Upgrade-Stone-Sprite-Sheet-Emission_3: -5850414629680849965
+      Upgrade-Stone-Sprite-Sheet-Emission_11: 2981033259906008164
+      Upgrade-Stone-Sprite-Sheet-Emission_5: 8544224114048942075
+      Upgrade-Stone-Sprite-Sheet-Emission_4: 1953157299032088414
+      Upgrade-Stone-Sprite-Sheet-Emission_6: -4460427304322726907
+      Upgrade-Stone-Sprite-Sheet-Emission_8: 5874465684433353440
+      Upgrade-Stone-Sprite-Sheet-Emission_1: -5599805402091033863
+      Upgrade-Stone-Sprite-Sheet-Emission_2: -776273191344234187
+      Upgrade-Stone-Sprite-Sheet-Emission_7: 2020022479696095760
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

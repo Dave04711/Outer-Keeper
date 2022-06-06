@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dwarf-Better-Combat-Sprite-Sheet_0: 5575133110069716339
+      Dwarf-Better-Combat-Sprite-Sheet_2: 2354842502549200489
+      Dwarf-Better-Combat-Sprite-Sheet_1: -6685970722043642457
+      Dwarf-Better-Combat-Sprite-Sheet_4: -6655900430680167349
+      Dwarf-Better-Combat-Sprite-Sheet_3: -3740959661103346665
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

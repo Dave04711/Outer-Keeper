@@ -23,6 +23,7 @@ public class CannonShopManager : MonoBehaviour
     [Space]
     public int cash;
     public CashUI cashUI;
+    public GameObject currentCannonGameObject;
 
     public int metalShards;
 
