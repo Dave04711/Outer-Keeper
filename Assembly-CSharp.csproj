@@ -77,7 +77,9 @@
     <Compile Include="Assets\Scripts\FartWaveObject.cs" />
     <Compile Include="Assets\Scripts\MobileMovement.cs" />
     <Compile Include="Assets\Scripts\CannonCrate.cs" />
+    <Compile Include="Assets\TakeAmmo.cs" />
     <Compile Include="Assets\Scripts\Skills\Orb.cs" />
+    <Compile Include="Assets\Guide.cs" />
     <Compile Include="Assets\Scripts\EnemyFreeze.cs" />
     <Compile Include="Assets\Scripts\DroppedLoot.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
@@ -110,11 +112,13 @@
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
+    <Compile Include="Assets\Scripts\TrapObject.cs" />
     <Compile Include="Assets\Scripts\Bless.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ActionButton.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill2Buy.cs" />
     <Compile Include="Assets\Scripts\Potion2Buy.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\MerchantShop.cs" />
     <Compile Include="Assets\Scripts\OrbObject.cs" />
     <Compile Include="Assets\Scripts\ObjectThrow.cs" />

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActiveBuff : MonoBehaviour
 {
@@ -8,10 +9,20 @@ public class ActiveBuff : MonoBehaviour
     [SerializeField] float bSpeed = 1.4f;
     [SerializeField] float bDamage = 2;
     [SerializeField] float duration = 120;
+    [SerializeField] Image speedBar;
+    [SerializeField] Image damageBar;
     WaitForSeconds mWaitForSeconds;
     PlayerHealth playerHealth;
     PlayerActions playerActions;
     bool isBuffed = false;
+
+    float defS;
+    bool isBuffingSpeed = false;
+    float activeTimeSpeed = 0f;
+
+    int baseDmg;
+    bool isBuffingDamage = false;
+    float activeTimeDamage = 0f;
 
     private void Awake()
     {
@@ -23,25 +34,15 @@ public class ActiveBuff : MonoBehaviour
         playerActions = GetComponent<PlayerActions>();
     }
 
-    IEnumerator SpeedBuff()
+    private void Update()
     {
-        float defS = mMovement.defSpeed;
-        mMovement.defSpeed *= bSpeed;
-        yield return mWaitForSeconds;
-        mMovement.defSpeed = defS;
+        if (isBuffingSpeed) { SpeedWait(); }
+        if (isBuffingDamage) { DamageWait(); }
     }
 
     void HealthBuff()
     {
         playerHealth.Heal();
-    }
-
-    IEnumerator AttackBuff()
-    {
-        int baseDmg = playerActions.damage;
-        playerActions.damage = (int)(bDamage * playerActions.damage);
-        yield return mWaitForSeconds;
-        playerActions.damage = baseDmg;
     }
 
     public void SetBuff(BuffType buff)
@@ -54,10 +55,15 @@ public class ActiveBuff : MonoBehaviour
                     HealthBuff();
                     break;
                 case BuffType.Speed:
-                    StartCoroutine(SpeedBuff());
+                    defS = mMovement.defSpeed;
+                    mMovement.defSpeed *= bSpeed;
+                    mMovement.SetMovement();
+                    isBuffingSpeed = true;
                     break;
                 case BuffType.Damage:
-                    StartCoroutine(AttackBuff());
+                    baseDmg = playerActions.damage;
+                    playerActions.damage = (int)(bDamage * playerActions.damage);
+                    isBuffingDamage = true;
                     break;
                 case BuffType.Cannons:
                     break;
@@ -70,6 +76,37 @@ public class ActiveBuff : MonoBehaviour
         else
         {
             Debug.Log("don't overdose");
+        }
+    }
+
+    void SpeedWait()
+    {
+        speedBar.transform.parent.gameObject.SetActive(true);
+        activeTimeSpeed += Time.deltaTime;
+        float percent = activeTimeSpeed / duration;
+        speedBar.fillAmount = Mathf.Lerp(0, 1, 1f - percent);
+        if (percent >= 1)
+        {
+            speedBar.fillAmount = 1;
+            speedBar.transform.parent.gameObject.SetActive(false);
+            isBuffingSpeed = false;
+            mMovement.defSpeed = defS;
+            mMovement.SetMovement();
+        }
+    }
+
+    void DamageWait()
+    {
+        damageBar.transform.parent.gameObject.SetActive(true);
+        activeTimeDamage += Time.deltaTime;
+        float percent = activeTimeDamage / duration;
+        damageBar.fillAmount = Mathf.Lerp(0, 1, 1f - percent);
+        if (percent >= 1)
+        {
+            damageBar.fillAmount = 1;
+            damageBar.transform.parent.gameObject.SetActive(false);
+            isBuffingDamage = false;
+            playerActions.damage = baseDmg;
         }
     }
 }

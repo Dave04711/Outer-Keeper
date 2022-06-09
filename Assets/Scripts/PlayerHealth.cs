@@ -59,6 +59,12 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<Animator>().SetTrigger("death");
         StopAllCoroutines();
         indicator.SetActive(false);
+        StartCoroutine(EndGame());
+    }
+    
+    IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(.5f);
         for (int i = 0; i < 15; i++)
         {
             townHealth.DamageTown();

@@ -58,7 +58,7 @@ public class UpgradePanel : MonoBehaviour
             }
             else
             {
-                //need money
+                CannonShopManager.instance.Rejection();
             }
         }
         else

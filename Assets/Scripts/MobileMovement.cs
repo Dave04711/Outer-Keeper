@@ -5,6 +5,8 @@ using UnityEngine;
 public class MobileMovement : MonoBehaviour
 {
     [SerializeField] Joystick joystick;
+    [SerializeField] Joystick dPad;
+    [SerializeField] Controls controls;
     Animator animator;
     Rigidbody2D rb;
     [SerializeField] float speed = 1;
@@ -19,12 +21,28 @@ public class MobileMovement : MonoBehaviour
         defSpeed = speed;
     }
 
+    private void Start()
+    {
+        CheckControls();
+    }
+
     private void FixedUpdate()
     {
-        float horizontal = joystick.Horizontal;
-        float vertical = joystick.Vertical;
+        float horizontal = 0, vertical = 0;
 
-        Vector2 movement = new Vector2(horizontal, vertical);
+        switch (controls)
+        {
+            case Controls.stick:
+                horizontal = joystick.Horizontal;
+                vertical = joystick.Vertical;
+                break;
+            case Controls.dPad:
+                horizontal = dPad.Horizontal;
+                vertical = dPad.Vertical;
+                break;
+        }
+
+        Vector2 movement = new Vector2(horizontal, vertical).normalized;
 
         if (Mathf.Abs(movement.x) > threshold || Mathf.Abs(movement.y) > threshold)
         {
@@ -64,4 +82,21 @@ public class MobileMovement : MonoBehaviour
         if (_p) { speed = 0; }
         else { speed = defSpeed; }
     }
+
+    void CheckControls()
+    {
+        if (PlayerPrefs.GetInt("controls") == 1)
+        {
+            controls = Controls.dPad;
+            dPad.gameObject.SetActive(true);
+            joystick.gameObject.SetActive(false);
+        }
+        else
+        {
+            controls = Controls.stick;
+            dPad.gameObject.SetActive(false);
+            joystick.gameObject.SetActive(true);
+        }
+    }
 }
+public enum Controls { stick, dPad }

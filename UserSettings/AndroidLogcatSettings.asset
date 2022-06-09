@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RF8M407W1LV",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 5214,
+        "processId": 25180,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,72 @@
             "deviceId": "RF8M407W1LV",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 5214,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11536,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 9446,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 3864,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 3998,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6352,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7114,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 10269,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 10466,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11882,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11995,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25180,
             "exited": false
         },
         {

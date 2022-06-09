@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TownHealth : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class TownHealth : MonoBehaviour
             gameOverPanel.gameObject.SetActive(true);
             AIParent.SetActive(false);
             gameOverPanel.ShowScoreMethod(score);
+            PlayerPrefs.SetInt("highscore", score);
             return;
         }
         SetBar();
@@ -40,4 +42,6 @@ public class TownHealth : MonoBehaviour
         float per = 1f - (float)townHealth / (float)townHealthMax;
         townHPBar.SetFill(per);
     }
+
+    public void Menu() { SceneManager.LoadScene(0); }
 }

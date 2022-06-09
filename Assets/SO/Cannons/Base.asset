@@ -28,27 +28,27 @@ MonoBehaviour:
     levels:
     - price: 2
       newValue: 4
-    - price: 0
+    - price: 7
       newValue: 5
-    - price: 0
+    - price: 10
       newValue: 7
   speedU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 6
       newValue: 0.9
-    - price: 0
+    - price: 7
       newValue: 1
-    - price: 0
+    - price: 11
       newValue: 1.2
   rangeU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 3
       newValue: 4
-    - price: 0
+    - price: 4
       newValue: 4.5
-    - price: 0
+    - price: 5
       newValue: 5
   ammoU:
     currentLvl: 0
