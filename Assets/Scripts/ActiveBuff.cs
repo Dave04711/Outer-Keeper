@@ -58,11 +58,13 @@ public class ActiveBuff : MonoBehaviour
                     defS = mMovement.defSpeed;
                     mMovement.defSpeed *= bSpeed;
                     mMovement.SetMovement();
+                    activeTimeSpeed = 0;
                     isBuffingSpeed = true;
                     break;
                 case BuffType.Damage:
                     baseDmg = playerActions.damage;
                     playerActions.damage = (int)(bDamage * playerActions.damage);
+                    activeTimeDamage = 0;
                     isBuffingDamage = true;
                     break;
                 case BuffType.Cannons:

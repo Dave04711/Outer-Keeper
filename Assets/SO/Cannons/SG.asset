@@ -13,45 +13,45 @@ MonoBehaviour:
   m_Name: SG
   m_EditorClassIdentifier: 
   cannonPrefab: {fileID: 402653728919667304, guid: aea7015ea5c8c6c42a6c136851df83f7, type: 3}
-  damage: 3
-  speed: 1.5
-  range: 4
+  damage: 1
+  speed: 1
+  range: 3
   ammo: 55
   upgrades: []
   iconPrefab: {fileID: 6592043121955839967, guid: da6aad115a89bae459bfa1271410ade4, type: 3}
   damageU:
     currentLvl: 0
     levels:
-    - price: 0
-      newValue: 4
-    - price: 0
+    - price: 1000
+      newValue: 2
+    - price: 6500
+      newValue: 3
+    - price: 16000
       newValue: 5
-    - price: 0
-      newValue: 6
   speedU:
     currentLvl: 0
     levels:
-    - price: 0
-      newValue: 1.7
-    - price: 0
-      newValue: 1.9
-    - price: 0
-      newValue: 2.1
+    - price: 4000
+      newValue: 1.2
+    - price: 8000
+      newValue: 1.4
+    - price: 12000
+      newValue: 1.6
   rangeU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 500
       newValue: 4.5
-    - price: 0
+    - price: 1500
       newValue: 5
-    - price: 0
+    - price: 2500
       newValue: 6
   ammoU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 800
       newValue: 70
-    - price: 0
+    - price: 1200
       newValue: 80
-    - price: 0
+    - price: 2400
       newValue: 95

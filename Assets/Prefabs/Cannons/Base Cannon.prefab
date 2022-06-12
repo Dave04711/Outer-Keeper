@@ -180,6 +180,9 @@ MonoBehaviour:
   pellet: 5
   spray: 5
   baseAnimator: {fileID: 0}
+  maxAmmo: 10
+  currentAmmo: 10
+  ammoBar: {fileID: 0}
 --- !u!114 &6269726627851022477
 MonoBehaviour:
   m_ObjectHideFlags: 0

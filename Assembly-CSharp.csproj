@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\CannonCard.cs" />
     <Compile Include="Assets\Scripts\CannonShop.cs" />
+    <Compile Include="Assets\RangeIndicatorMoving.cs" />
     <Compile Include="Assets\Scripts\CashUI.cs" />
     <Compile Include="Assets\Scripts\Cannon.cs" />
     <Compile Include="Assets\Scripts\SpriteMaskAnimation.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\TakeAmmo.cs" />
     <Compile Include="Assets\Scripts\Skills\Orb.cs" />
     <Compile Include="Assets\Guide.cs" />
+    <Compile Include="Assets\Campfire.cs" />
     <Compile Include="Assets\Scripts\EnemyFreeze.cs" />
     <Compile Include="Assets\Scripts\DroppedLoot.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Assets\Scripts\BulletArc.cs" />
     <Compile Include="Assets\Scripts\CannonShopManager.cs" />
     <Compile Include="Assets\Scripts\DoubleTapCameraZoom.cs" />
+    <Compile Include="Assets\Medkit.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
     <Compile Include="Assets\Scripts\GadgetButton.cs" />
     <Compile Include="Assets\Scripts\barrelComponent.cs" />
@@ -111,6 +114,8 @@
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
+    <Compile Include="Assets\Rock.cs" />
+    <Compile Include="Assets\Bear.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
     <Compile Include="Assets\Scripts\TrapObject.cs" />
     <Compile Include="Assets\Scripts\Bless.cs" />
@@ -123,6 +128,7 @@
     <Compile Include="Assets\Scripts\OrbObject.cs" />
     <Compile Include="Assets\Scripts\ObjectThrow.cs" />
     <Compile Include="Assets\Scripts\UIContainer.cs" />
+    <Compile Include="Assets\SpawnItem.cs" />
     <Compile Include="Assets\Scripts\Destructable.cs" />
     <Compile Include="Assets\Scripts\DestructableCannon.cs" />
     <Compile Include="Assets\Scripts\UpgradeStation.cs" />

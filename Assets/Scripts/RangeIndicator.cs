@@ -6,7 +6,7 @@ public class RangeIndicator : MonoBehaviour
 {
     LineRenderer circle;
     [HideInInspector] public float CircleRadius = 1;
-    [SerializeField] int CircleSteps = 64;
+    [SerializeField] protected int CircleSteps = 64;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class RangeIndicator : MonoBehaviour
         DrawCircle(CircleSteps, CircleRadius / 5);//or 10
     }
 
-    void DrawCircle(int steps, float radius)
+    protected void DrawCircle(int steps, float radius)
     {
         circle.positionCount = steps;
 

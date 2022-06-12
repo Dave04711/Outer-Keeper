@@ -71,6 +71,7 @@ public class BulletArc : Bullet
                 {
                     health.Damage(damage);
                 }
+                hits[i].GetComponent<Rock>()?.DropItem();
             }
             ShowBoom();
             Destroy(gameObject);

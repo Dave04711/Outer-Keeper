@@ -25,7 +25,7 @@ public class CannonSO : ScriptableObject
 public class Statistic
 {
     public int currentLvl;
-    public LVL[] levels = new LVL[3];
+    [NonReorderable]public LVL[] levels = new LVL[3];//NonReorderable 8P
 
     [System.Serializable]
     public class LVL

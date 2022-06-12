@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Image barFill;
     [SerializeField] TownHealth townHealth;
     [SerializeField] GameObject indicator;
+    [SerializeField] GameObject indicator2;
 
     private void Start()
     {
@@ -37,9 +38,28 @@ public class PlayerHealth : MonoBehaviour
         //indicator.SetActive( false );
     }
 
+    IEnumerator ShowHeal()
+    {
+        indicator2.SetActive(true);
+        yield return new WaitForSeconds(.1f);
+        indicator2.SetActive(false);
+    }
+
     public void Heal()
     {
         health = maxHealth;
+        SetBar();
+    }
+
+    public void Reg(int _p)
+    {
+        if (health < maxHealth)
+        {
+            health += _p;
+            StopAllCoroutines();
+            StartCoroutine(ShowHeal());
+        }
+        SetBar();
     }
 
     public void SetHealth(int _p)

@@ -26,6 +26,15 @@ public class Cannon : MonoBehaviour
     [SerializeField] float spray = 5;
     [SerializeField] Animator baseAnimator;
 
+    [SerializeField] int maxAmmo = 10;
+    [SerializeField] int currentAmmo = 10;
+
+    private void Start()
+    {
+        UIContainer.instance.ammoBar.gameObject.SetActive(true);
+        SetBar();
+    }
+
     private void Update()
     {
         if (!targeted)
@@ -39,7 +48,7 @@ public class Cannon : MonoBehaviour
         }
         else if (targeted)
         {
-            Debug.Log(target.name);
+            //Debug.Log(target.name);
             Rotate2Point(target);
             if (Time.time >= nextTickTime)
             {
@@ -72,25 +81,31 @@ public class Cannon : MonoBehaviour
 
     public void Shoot()
     {
-        if(shootType == ShootType.shotgun)
+        if (CannonShopManager.instance.currentCannon.ammo > 0)
         {
-            for (int i = -pellet; i < pellet; i++)
+            if (shootType == ShootType.shotgun)
             {
-                var _bullet = Instantiate(bullet, shootPoint.position, Quaternion.Euler(shootPoint.eulerAngles + Vector3.forward * i * spray));
+                for (int i = -pellet; i < pellet; i++)
+                {
+                    var _bullet = Instantiate(bullet, shootPoint.position, Quaternion.Euler(shootPoint.eulerAngles + Vector3.forward * i * spray));
+                    _bullet.GetComponent<Bullet>().damage = damage;
+                    Destroy(_bullet, 5f);
+                    CannonShopManager.instance.currentCannon.ammo--;
+                }
+            }
+            else
+            {
+                var _bullet = Instantiate(bullet, shootPoint.position, shootPoint.rotation);
                 _bullet.GetComponent<Bullet>().damage = damage;
+                if (shootType == ShootType.arc)
+                {
+                    _bullet.GetComponent<BulletArc>().target = target;
+                }
                 Destroy(_bullet, 5f);
-            }
+                CannonShopManager.instance.currentCannon.ammo--;
+            } 
         }
-        else
-        {
-            var _bullet = Instantiate(bullet, shootPoint.position, shootPoint.rotation);
-            _bullet.GetComponent<Bullet>().damage = damage;
-            if (shootType == ShootType.arc)
-            {
-                _bullet.GetComponent<BulletArc>().target = target;
-            }
-            Destroy(_bullet, 5f);
-        }
+        SetBar();
     }
 
     public void StartBaseAnim()
@@ -98,11 +113,24 @@ public class Cannon : MonoBehaviour
         baseAnimator.SetTrigger("reload");
     }
 
-    public void SetStats(float _speed, float _range, int _damage)
+    public void SetStats(float _speed, float _range, int _damage, int _ammo)
     {
         fireRate = _speed;
         range = _range;
         damage = _damage;
+        maxAmmo = _ammo;
+        Restock();
+    }
+
+    public void Restock()
+    {
+        CannonShopManager.instance.currentCannon.ammo = maxAmmo;
+        SetBar();
+    }
+
+    public void SetBar()
+    {
+        UIContainer.instance.ammoBar.SetFill((float)CannonShopManager.instance.currentCannon.ammo / (float)maxAmmo);
     }
 
     private void OnDrawGizmosSelected()

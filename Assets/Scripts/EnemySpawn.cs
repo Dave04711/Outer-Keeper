@@ -70,6 +70,10 @@ public class EnemySpawn : MonoBehaviour
         waveIndex++;
         enemyMaxAmount = waveIndex * increase;
         canSpawn = true;
+        //reb
+            if(waveIndex < 5) { spawnSpeed += .1f; }
+            if (waveIndex % 5 == 0) { enemyCount += 5; }
+            if ( waveIndex % 10 == 0 && spawnSpeed < 2f) { spawnSpeed += .1f; }
     }
 
     public void StopSpawning()

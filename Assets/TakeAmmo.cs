@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class TakeAmmo : Interacting
 {
-    [SerializeField] ActionButton liftBtn;
+    ActionButton liftBtn;
+    [SerializeField] GameObject particles;
 
     private void Start()
     {
         GetComponent<Animator>().SetBool("hasAmmo", true);
+        liftBtn = UIContainer.instance.buttonB;
     }
 
     public override void Interact()
@@ -23,10 +25,14 @@ public class TakeAmmo : Interacting
 
     void RefillAmmo()
     {
-        //TODO:
-        //check distance
-        //  A: Refill ammo
-        //  B: particles
-        //Reset
+        float distance = Vector2.Distance(CannonShopManager.instance.currentCannonGameObject.transform.position, Player.instance.transform.position);
+        if (distance <= 3f)
+        {
+            CannonShopManager.instance.currentCannonGameObject.GetComponent<Cannon>()?.Restock();
+        }
+        Destroy(Instantiate(particles, Player.instance.transform.position, Quaternion.identity), 3f);
+        Player.instance.GetComponent<PlayerActions>().enabled = true;
+        Player.instance.GetComponent<Animator>().SetBool("ammo", false);
+        GetComponent<Animator>().SetBool("hasAmmo", true);
     }
 }

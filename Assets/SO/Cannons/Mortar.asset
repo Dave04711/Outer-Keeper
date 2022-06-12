@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mortar
   m_EditorClassIdentifier: 
   cannonPrefab: {fileID: 405513209193146826, guid: 9518206c22e99224fbc8f6d1598f9174, type: 3}
-  damage: 45
+  damage: 9
   speed: 0.2
   range: 7
   ammo: 10
@@ -22,36 +22,36 @@ MonoBehaviour:
   damageU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 600
+      newValue: 14
+    - price: 3200
+      newValue: 25
+    - price: 64000
       newValue: 55
-    - price: 0
-      newValue: 65
-    - price: 0
-      newValue: 75
   speedU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 900
       newValue: 0.3
-    - price: 0
+    - price: 2800
       newValue: 0.4
-    - price: 0
+    - price: 7400
       newValue: 0.6
   rangeU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 1300
       newValue: 8
-    - price: 0
+    - price: 6000
       newValue: 10
-    - price: 0
+    - price: 8000
       newValue: 12
   ammoU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 2000
       newValue: 15
-    - price: 0
+    - price: 4000
       newValue: 20
-    - price: 0
+    - price: 6000
       newValue: 25

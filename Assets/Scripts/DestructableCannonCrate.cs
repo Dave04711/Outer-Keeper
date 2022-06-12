@@ -30,7 +30,7 @@ public class DestructableCannonCrate : Destructable
     void SpawnCannon() 
     { 
         var cannon = Instantiate(CannonShopManager.instance.currentCannon.cannonPrefab, transform.position, Quaternion.identity);
-        cannon.GetComponent<Cannon>()?.SetStats(CannonShopManager.instance.currentCannon.speed, CannonShopManager.instance.currentCannon.range, CannonShopManager.instance.currentCannon.damage);
+        cannon.GetComponent<Cannon>()?.SetStats(CannonShopManager.instance.currentCannon.speed, CannonShopManager.instance.currentCannon.range, CannonShopManager.instance.currentCannon.damage, CannonShopManager.instance.currentCannon.ammo);
     }
 
     IEnumerator ShowIcon()

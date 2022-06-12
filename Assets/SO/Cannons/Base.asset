@@ -26,36 +26,36 @@ MonoBehaviour:
   damageU:
     currentLvl: 0
     levels:
-    - price: 2
+    - price: 50
       newValue: 4
-    - price: 7
+    - price: 100
       newValue: 5
-    - price: 10
+    - price: 150
       newValue: 7
   speedU:
     currentLvl: 0
     levels:
-    - price: 6
+    - price: 60
       newValue: 0.9
-    - price: 7
+    - price: 145
       newValue: 1
-    - price: 11
+    - price: 270
       newValue: 1.2
   rangeU:
     currentLvl: 0
     levels:
-    - price: 3
+    - price: 25
       newValue: 4
-    - price: 4
+    - price: 50
       newValue: 4.5
-    - price: 5
+    - price: 85
       newValue: 5
   ammoU:
     currentLvl: 0
     levels:
-    - price: 0
+    - price: 40
       newValue: 20
-    - price: 0
+    - price: 55
       newValue: 25
-    - price: 0
+    - price: 115
       newValue: 35

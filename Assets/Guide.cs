@@ -27,6 +27,7 @@ public class Guide : MonoBehaviour
     [Space]
     [SerializeField] float speed = 1;
     [SerializeField] float range = 3;
+    [SerializeField] float peronalSpace = 1;
 
     bool canMove = true;
     bool canTouch = true;
@@ -35,6 +36,10 @@ public class Guide : MonoBehaviour
 
     [SerializeField] GameObject defNPC1, defNPC2, defNPC3;
     [SerializeField] GameObject tutNPCParent;
+
+    [Space]
+
+    [SerializeField] GameObject controls;
 
     private void Start()
     {
@@ -88,7 +93,19 @@ public class Guide : MonoBehaviour
 
     void Move()
     {
-        guide.position = Vector3.MoveTowards(guide.position, points[index].target.position, Time.deltaTime * speed);
+        if (Player.instance.GetComponent<PlayerActions>().loaded)
+        {
+            bool isClose = Vector2.Distance(guide.position, Player.instance.transform.position) < peronalSpace;
+            if (!isClose) { guide.position = Vector3.MoveTowards(guide.position, points[index].target.position, Time.deltaTime * speed / 2f); }
+            else if (isClose) { guide.position = Vector3.MoveTowards(guide.position, points[index].target.position, Time.deltaTime * speed); }
+        }
+        else
+        {
+            bool isClose = Vector2.Distance(guide.position, Player.instance.transform.position) < peronalSpace;
+            if (isClose) { guide.position = Vector3.MoveTowards(guide.position, points[index].target.position, Time.deltaTime * speed * 2); }
+            else if (!isClose) { guide.position = Vector3.MoveTowards(guide.position, points[index].target.position, Time.deltaTime * speed); }
+        }
+        
         guide.GetComponent<Animator>().SetBool("isMoving", true);
         if(points[index].target.position.x >= guide.position.x) { guide.eulerAngles = Vector2.zero; }
         else { guide.eulerAngles = Vector2.up * 180; }
@@ -100,15 +117,19 @@ public class Guide : MonoBehaviour
         {
             case NPC.Guide:
                 guidePanel.SetActive(true);
+                controls.SetActive(false);
                 break;
             case NPC.Veronica:
                 veroPanel.SetActive(true);
+                controls.SetActive(false);
                 break;
             case NPC.Gregory:
                 gregPanel.SetActive(true);
+                controls.SetActive(false);
                 break;
             case NPC.Richard:
                 richPanel.SetActive(true);
+                controls.SetActive(false);
                 break;
             default:
                 index++;
@@ -144,6 +165,7 @@ public class Guide : MonoBehaviour
             if (points[index].index >= points[index].txt.Length)
             {
                 CloseChat();
+                controls.SetActive(true);
                 index++;
             }
             else
@@ -184,6 +206,8 @@ public class Guide : MonoBehaviour
             }
         }
         Gizmos.DrawWireSphere(guide.position, range);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(guide.position, peronalSpace);
     }
 }
 

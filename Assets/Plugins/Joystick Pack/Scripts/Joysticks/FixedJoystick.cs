@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class FixedJoystick : Joystick
 {
-
+    private void OnDisable()
+    {
+        RESET();
+    }
 }

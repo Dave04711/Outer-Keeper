@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RF8M407W1LV",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 25180,
+        "processId": 30083,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -126,6 +126,18 @@
             "deviceId": "RF8M407W1LV",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 25180,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 32097,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8M407W1LV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 30083,
             "exited": false
         },
         {

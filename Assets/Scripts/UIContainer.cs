@@ -22,4 +22,5 @@ public class UIContainer : MonoBehaviour
     public GadgetButton buttonD;
     public GameOverPanel gameOverPanel;
     public Image skillIcon;
+    public HPBar ammoBar;
 }

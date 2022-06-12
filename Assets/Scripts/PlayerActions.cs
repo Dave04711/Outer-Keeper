@@ -41,7 +41,12 @@ public class PlayerActions : MonoBehaviour
         liftButton = UIContainer.instance.buttonB;
         topButtonsAnimator = UIContainer.instance.animA;
 
-        liftButton.onClickCallback += Lift;
+        liftButton.onClickCallback = Lift;
+    }
+
+    private void OnEnable()
+    {
+        liftButton.onClickCallback = Lift;
     }
 
     public void SetAttackState(bool _p)

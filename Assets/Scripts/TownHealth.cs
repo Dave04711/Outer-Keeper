@@ -31,7 +31,7 @@ public class TownHealth : MonoBehaviour
             gameOverPanel.gameObject.SetActive(true);
             AIParent.SetActive(false);
             gameOverPanel.ShowScoreMethod(score);
-            PlayerPrefs.SetInt("highscore", score);
+            if(score > PlayerPrefs.GetInt("highscore") || !PlayerPrefs.HasKey("highscore")) { PlayerPrefs.SetInt("highscore", score); }
             return;
         }
         SetBar();

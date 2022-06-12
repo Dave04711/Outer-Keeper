@@ -23,4 +23,10 @@ public class FloatingJoystick : Joystick
         background.gameObject.SetActive(false);
         base.OnPointerUp(eventData);
     }
+
+    private void OnDisable()
+    {
+        background.gameObject.SetActive(false);
+        RESET();
+    }
 }
