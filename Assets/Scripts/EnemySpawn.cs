@@ -9,6 +9,7 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] int enemyCount = 50;
     [SerializeField] Transform parent;
     [SerializeField] List<GameObject> spawnList = new List<GameObject>();
+    [SerializeField] GameObject boss;
     [SerializeField] float spawnSpeed = .5f;//TODO: instead of spawnSpeed, should be separate class or something else what can set spawnSpeed individually to unit
     [SerializeField] List<GameObject> spawnedEnemies = new List<GameObject>();
     [SerializeField] List<GameObject> unusedEnemies = new List<GameObject>();
@@ -36,6 +37,8 @@ public class EnemySpawn : MonoBehaviour
         counter++;
     }
 
+    void NewFraction() { fraction = 1f / spawnSpeed; }
+
     void Respawn(GameObject _enemy)
     {
         _enemy.GetComponent<EnemyMove>().Init(PathsManager.instance.GetRandomPath());
@@ -46,6 +49,13 @@ public class EnemySpawn : MonoBehaviour
     public void TurnOff(GameObject _enemy)
     {
         town.DamageTown();
+        if (_enemy.GetComponent<EnemyMove>().isBoss)
+        {
+            for (int i = 0; i < 15; i++)
+            {
+                town.DamageTown();
+            }
+        }
         _enemy.SetActive(false);
         unusedEnemies.Add(_enemy);
     }
@@ -71,9 +81,26 @@ public class EnemySpawn : MonoBehaviour
         enemyMaxAmount = waveIndex * increase;
         canSpawn = true;
         //reb
-            if(waveIndex < 5) { spawnSpeed += .1f; }
+            if(waveIndex < 5) 
+            { 
+                spawnSpeed += .1f;
+                NewFraction();
+            }
             if (waveIndex % 5 == 0) { enemyCount += 5; }
-            if ( waveIndex % 10 == 0 && spawnSpeed < 2f) { spawnSpeed += .1f; }
+            if ( waveIndex % 1 == 0 && spawnSpeed < 2f) 
+            { 
+                spawnSpeed += .1f;
+                NewFraction();
+                SpawnBoss();
+            }
+    }
+
+    void SpawnBoss()
+    {
+        StopSpawning();
+        var enemy = Instantiate(boss, parent);
+        enemy.GetComponent<EnemyMove>().Init(PathsManager.instance.GetRandomPath());
+        mineEntry.ResetCave();
     }
 
     public void StopSpawning()

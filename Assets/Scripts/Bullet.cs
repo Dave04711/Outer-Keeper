@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] float speed = 1;
+    [SerializeField] protected float speed = 1;
     public int damage = 5;
-    [SerializeField] float radius = .5f;
+    [SerializeField] protected float radius = .5f;
     [SerializeField] protected LayerMask targetMask;
-    Rigidbody2D rb;
+    protected Rigidbody2D rb;
+    [SerializeField] bool piercing = false;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class Bullet : MonoBehaviour
     {
         if (rb != null)
         { rb.velocity = transform.right * speed; }
+        Destroy(gameObject, 8f);
     }
 
     private void Update()
@@ -36,7 +38,8 @@ public class Bullet : MonoBehaviour
                         health.Damage(damage);
                     }
                 }
-                Destroy(gameObject);
+                if (!piercing) { Destroy(gameObject); }
+                
             }
         }
     }

@@ -69,19 +69,21 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\CannonCard.cs" />
     <Compile Include="Assets\Scripts\CannonShop.cs" />
-    <Compile Include="Assets\RangeIndicatorMoving.cs" />
+    <Compile Include="Assets\Scripts\RangeIndicatorMoving.cs" />
     <Compile Include="Assets\Scripts\CashUI.cs" />
     <Compile Include="Assets\Scripts\Cannon.cs" />
     <Compile Include="Assets\Scripts\SpriteMaskAnimation.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\LineAttackFX.cs" />
+    <Compile Include="Assets\Water.cs" />
     <Compile Include="Assets\Scripts\FartWaveObject.cs" />
     <Compile Include="Assets\Scripts\MobileMovement.cs" />
+    <Compile Include="Assets\Scripts\TornadoBullet.cs" />
     <Compile Include="Assets\Scripts\CannonCrate.cs" />
-    <Compile Include="Assets\TakeAmmo.cs" />
+    <Compile Include="Assets\Scripts\TakeAmmo.cs" />
     <Compile Include="Assets\Scripts\Skills\Orb.cs" />
-    <Compile Include="Assets\Guide.cs" />
-    <Compile Include="Assets\Campfire.cs" />
+    <Compile Include="Assets\Scripts\Guide.cs" />
+    <Compile Include="Assets\Scripts\Campfire.cs" />
     <Compile Include="Assets\Scripts\EnemyFreeze.cs" />
     <Compile Include="Assets\Scripts\DroppedLoot.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Assets\Scripts\ActiveSkill.cs" />
     <Compile Include="Assets\Scripts\Consumable2Buy.cs" />
     <Compile Include="Assets\Scripts\UpgradePanel.cs" />
+    <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\Cloud.cs" />
     <Compile Include="Assets\Scripts\Item2Buy.cs" />
@@ -98,7 +101,7 @@
     <Compile Include="Assets\Scripts\BulletArc.cs" />
     <Compile Include="Assets\Scripts\CannonShopManager.cs" />
     <Compile Include="Assets\Scripts\DoubleTapCameraZoom.cs" />
-    <Compile Include="Assets\Medkit.cs" />
+    <Compile Include="Assets\Scripts\Medkit.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
     <Compile Include="Assets\Scripts\GadgetButton.cs" />
     <Compile Include="Assets\Scripts\barrelComponent.cs" />
@@ -114,8 +117,8 @@
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
-    <Compile Include="Assets\Rock.cs" />
-    <Compile Include="Assets\Bear.cs" />
+    <Compile Include="Assets\Scripts\Rock.cs" />
+    <Compile Include="Assets\Scripts\Bear.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
     <Compile Include="Assets\Scripts\TrapObject.cs" />
     <Compile Include="Assets\Scripts\Bless.cs" />
@@ -128,12 +131,16 @@
     <Compile Include="Assets\Scripts\OrbObject.cs" />
     <Compile Include="Assets\Scripts\ObjectThrow.cs" />
     <Compile Include="Assets\Scripts\UIContainer.cs" />
-    <Compile Include="Assets\SpawnItem.cs" />
+    <Compile Include="Assets\Scripts\FreezeRotate.cs" />
+    <Compile Include="Assets\Scripts\SpawnItem.cs" />
     <Compile Include="Assets\Scripts\Destructable.cs" />
     <Compile Include="Assets\Scripts\DestructableCannon.cs" />
     <Compile Include="Assets\Scripts\UpgradeStation.cs" />
     <Compile Include="Assets\Scripts\GameOverPanel.cs" />
     <Compile Include="Assets\Scripts\CannonSO.cs" />
+    <Compile Include="Assets\BossIconUI.cs" />
+    <Compile Include="Assets\BossHealth.cs" />
+    <Compile Include="Assets\BossAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

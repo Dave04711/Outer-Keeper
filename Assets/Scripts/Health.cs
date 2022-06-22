@@ -8,15 +8,18 @@ public class Health : MonoBehaviour
 {
     [SerializeField] protected int maxHP = 10;
     protected int health;
-    [SerializeField] Animator animator;
+    [SerializeField] protected Animator animator;
     [Header("UI")]
-    [SerializeField] HPBar healthBar;
+    [SerializeField] protected HPBar healthBar;
     [Header("LOOT")]
     [SerializeField] GameObject itemPrefab;
     [SerializeField] GameObject metalShardPrefab;
+    [Space]
+    public bool wet = false;
 
     public void Damage(int _damage)
     {
+        if (wet) { health -= _damage * 10; }
         health -= _damage;
         if(health <= 0)
         {

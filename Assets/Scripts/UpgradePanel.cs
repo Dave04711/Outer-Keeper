@@ -81,7 +81,7 @@ public class UpgradePanel : MonoBehaviour
             }
             else
             {
-                //need money
+                CannonShopManager.instance.Rejection();
             }
         }
         else
@@ -104,7 +104,7 @@ public class UpgradePanel : MonoBehaviour
             }
             else
             {
-                //need money
+                CannonShopManager.instance.Rejection();
             }
         }
         else
@@ -127,7 +127,7 @@ public class UpgradePanel : MonoBehaviour
             }
             else
             {
-                //need money
+                CannonShopManager.instance.Rejection();
             }
         }
         else
@@ -161,35 +161,52 @@ public class UpgradePanel : MonoBehaviour
         speedTxt.text = cur.speed.ToString();
         ammoTxt.text = cur.ammo.ToString();
 
-        int dmgPrice = cur.damageU.levels[cur.damageU.currentLvl].price;
-        int rngPrice = cur.rangeU.levels[cur.rangeU.currentLvl].price;
-        int spdPrice = cur.speedU.levels[cur.speedU.currentLvl].price;
-        int mmoPrice = cur.ammoU.levels[cur.ammoU.currentLvl].price;
+        if (cur.damageU.currentLvl < cur.damageU.levels.Length)
+        {
+            int dmgPrice = cur.damageU.levels[cur.damageU.currentLvl].price;
+            damagePrice.text = dmgPrice.ToString();
+            if (dmgPrice <= CannonShopManager.instance.cash)
+            {
+                damagePrice.color = green;
+            }
+            else { damagePrice.color = red; }
+        }
+        else { damagePrice.text = "MAX"; }
 
-        damagePrice.text = dmgPrice.ToString();
-        rangePrice.text = rngPrice.ToString();
-        speedPrice.text = spdPrice.ToString();
-        ammoPrice.text = mmoPrice.ToString();
+        if (cur.rangeU.currentLvl < cur.rangeU.levels.Length)
+        {
+            int rngPrice = cur.rangeU.levels[cur.rangeU.currentLvl].price;
+            rangePrice.text = rngPrice.ToString();
+            if (rngPrice <= CannonShopManager.instance.cash)
+            {
+                rangePrice.color = green;
+            }
+            else { rangePrice.color = red; }
+        }
+        else { rangePrice.text = "MAX"; }
 
-        if (dmgPrice <= CannonShopManager.instance.cash)
+        if (cur.speedU.currentLvl < cur.speedU.levels.Length)
         {
-            damagePrice.color = green;
+            int spdPrice = cur.speedU.levels[cur.speedU.currentLvl].price;
+            speedPrice.text = spdPrice.ToString();
+            if (spdPrice <= CannonShopManager.instance.cash)
+            {
+                speedPrice.color = green;
+            }
+            else { speedPrice.color = red; }
         }
-        else { damagePrice.color = red; }
-        if (rngPrice <= CannonShopManager.instance.cash)
+        else { speedPrice.text = "MAX"; }
+
+        if (cur.ammoU.currentLvl < cur.ammoU.levels.Length)
         {
-            rangePrice.color = green;
+            int mmoPrice = cur.ammoU.levels[cur.ammoU.currentLvl].price;
+            ammoPrice.text = mmoPrice.ToString();
+            if (mmoPrice <= CannonShopManager.instance.cash)
+            {
+                ammoPrice.color = green;
+            }
+            else { ammoPrice.color = red; }
         }
-        else { rangePrice.color = red; }
-        if (spdPrice <= CannonShopManager.instance.cash)
-        {
-            speedPrice.color = green;
-        }
-        else { speedPrice.color = red; }
-        if (mmoPrice <= CannonShopManager.instance.cash)
-        {
-            ammoPrice.color = green;
-        }
-        else { ammoPrice.color = red; }
+        else { ammoPrice.text = "MAX"; }     
     }
 }

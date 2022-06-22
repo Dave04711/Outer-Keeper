@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Tornado
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 1617917871283286008, guid: edf43b80592934249be9117fcff5fbc2, type: 3}
+  damage: 1
+  speed: 0.5
+  range: 15
+  ammo: 15
+  upgrades: []
+  iconPrefab: {fileID: 6592043121955839967, guid: e502eb2cae3e1d440b74173e0792a031, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 8000
+      newValue: 2
+    - price: 16000
+      newValue: 3
+    - price: 24000
+      newValue: 4
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 7000
+      newValue: 0.75
+    - price: 14000
+      newValue: 1
+    - price: 21000
+      newValue: 1.5
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 7000
+      newValue: 20
+    - price: 11000
+      newValue: 25
+    - price: 18000
+      newValue: 30
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 4000
+      newValue: 20
+    - price: 12000
+      newValue: 25
+    - price: 20000
+      newValue: 35

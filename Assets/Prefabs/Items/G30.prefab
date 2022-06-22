@@ -124,5 +124,5 @@ MonoBehaviour:
   target: {fileID: 0}
   arcHeight: 3
   radius: 3
-  value: 3000
+  value: 30
   metalShards: 0

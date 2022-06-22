@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50616c6e15d8f7540a558a1f347be459, type: 3}
+  m_Name: Blade
+  m_EditorClassIdentifier: 
+  cannonPrefab: {fileID: 3083182338775271460, guid: 172f77843ec030b4b85a7159c15ac01c, type: 3}
+  damage: 1
+  speed: 1
+  range: 7
+  ammo: 250
+  upgrades: []
+  iconPrefab: {fileID: 6592043121955839967, guid: 5e6b292f634c6614698850f91aa6272c, type: 3}
+  damageU:
+    currentLvl: 0
+    levels:
+    - price: 14000
+      newValue: 2
+    - price: 28000
+      newValue: 3
+    - price: 34000
+      newValue: 4
+  speedU:
+    currentLvl: 0
+    levels:
+    - price: 9000
+      newValue: 2
+    - price: 16000
+      newValue: 3
+    - price: 25000
+      newValue: 6
+  rangeU:
+    currentLvl: 0
+    levels:
+    - price: 1400
+      newValue: 8
+    - price: 5600
+      newValue: 9
+    - price: 9900
+      newValue: 10
+  ammoU:
+    currentLvl: 0
+    levels:
+    - price: 3800
+      newValue: 375
+    - price: 5000
+      newValue: 500
+    - price: 7500
+      newValue: 750

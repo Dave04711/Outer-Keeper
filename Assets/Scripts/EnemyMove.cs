@@ -19,6 +19,7 @@ public class EnemyMove : MonoBehaviour
     [SerializeField] float waitTimeMin = 0;
     [SerializeField] float waitTimeMax = 3;
     [SerializeField] int damage = 3;
+    public bool isBoss = false;
 
     private void Awake()
     {
@@ -42,18 +43,23 @@ public class EnemyMove : MonoBehaviour
         }
         else
         {
-            if (Vector2.Distance(transform.position, points[index].position) <= .02f) { index++; }
+            if (Vector2.Distance(transform.position, points[index].position) <= .02f) 
+            {
+                if (isBoss) { StartCoroutine(Slow(0, 10)); }
+                index++; 
+            }
             if (index < points.Count)
             {
-                animator.SetBool("move", true);
+                //animator.SetBool("move", true);
                 float step = speed * Time.deltaTime;
                 transform.position = Vector2.MoveTowards(transform.position, points[index].position, step);
                 Rotate(points[index].position.x < transform.position.x);
             }
-            else
-            {
-                animator.SetBool("move", false);
-            } 
+            //else
+            //{
+            //    animator.SetBool("move", false);
+            //}
+            animator.SetBool("move", speed > 0);
         }
         if(IsCloseEnough().Length > 0 && !isAttacking)
         {
@@ -72,7 +78,8 @@ public class EnemyMove : MonoBehaviour
         }
         else
         {
-            speed = 0;
+            Rotate(targets[0].transform.position.x < transform.position.x);
+            if (!isBoss) { speed = 0; }
             animator.SetTrigger("attack");
             yield return new WaitForSeconds (.3f);
             foreach (var item in targets)
@@ -80,7 +87,8 @@ public class EnemyMove : MonoBehaviour
                 item.GetComponent<PlayerHealth>()?.TakeDamage(damage);
             }
             yield return new WaitForSeconds(.2f);
-            Restore();
+            if (!isBoss) { Restore(); }
+            
             isAttacking = false;
         }
     }

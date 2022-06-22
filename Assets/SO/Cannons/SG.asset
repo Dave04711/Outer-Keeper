@@ -17,7 +17,8 @@ MonoBehaviour:
   speed: 1
   range: 3
   ammo: 55
-  upgrades: []
+  upgrades:
+  - {fileID: 11400000, guid: 9640f26c4815a4843a9823ab3c12eea8, type: 2}
   iconPrefab: {fileID: 6592043121955839967, guid: da6aad115a89bae459bfa1271410ade4, type: 3}
   damageU:
     currentLvl: 0

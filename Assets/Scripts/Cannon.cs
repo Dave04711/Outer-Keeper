@@ -21,13 +21,19 @@ public class Cannon : MonoBehaviour
     [SerializeField] ShootType shootType; //TOFIX: Clean up
     public Placement placementType;
 
+    [SerializeField] int maxAmmo = 10;
+    [SerializeField] int currentAmmo = 10;
+
     [Header("SG")]
     [SerializeField] int pellet = 5;
     [SerializeField] float spray = 5;
     [SerializeField] Animator baseAnimator;
 
-    [SerializeField] int maxAmmo = 10;
-    [SerializeField] int currentAmmo = 10;
+    [Header("Tornado")]
+    [SerializeField] float XW = 5;
+    [SerializeField] float XH = 1;
+    [SerializeField] float YW = 1;
+    [SerializeField] float YH = 5;
 
     private void Start()
     {
@@ -39,7 +45,26 @@ public class Cannon : MonoBehaviour
     {
         if (!targeted)
         {
-            Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, range, targetMask);
+            Collider2D[] targets = null;
+            if(shootType == ShootType.longRange)
+            {
+                List<Collider2D> ds = new List<Collider2D>();
+                targets = Physics2D.OverlapBoxAll(transform.position, new Vector2(range, XH), 0, targetMask);
+                for (int i = 0; i < targets.Length; i++)
+                {
+                    ds.Add(targets[i]);
+                }
+                targets = Physics2D.OverlapBoxAll(transform.position, new Vector2(YW, range), 0, targetMask);
+                for (int i = 0; i < targets.Length; i++)
+                {
+                    ds.Add(targets[i]);
+                }
+                targets = ds.ToArray();
+            }
+            else
+            {
+                targets = Physics2D.OverlapCircleAll(transform.position, range, targetMask);
+            }
             if (targets.Length > 0)
             {
                 targeted = true;
@@ -52,7 +77,8 @@ public class Cannon : MonoBehaviour
             Rotate2Point(target);
             if (Time.time >= nextTickTime)
             {
-                animator.SetTrigger("shoot");
+                if(animator != null) { animator.SetTrigger("shoot"); }
+                else { Shoot(); }
                 nextTickTime = Time.time + 1f / fireRate;
             }
             if (!CheckTarget(target))
@@ -138,8 +164,14 @@ public class Cannon : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, range);
         Gizmos.DrawSphere(shootPoint.position, .25f);
+        if(shootType == ShootType.longRange)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireCube(transform.position, new Vector2(range, XH));
+            Gizmos.DrawWireCube(transform.position, new Vector2(YW, range));
+        }
     }
 }
 
-public enum ShootType { straight, arc, shotgun }
+public enum ShootType { straight, arc, shotgun, longRange }
 public enum Placement { ground, air }
