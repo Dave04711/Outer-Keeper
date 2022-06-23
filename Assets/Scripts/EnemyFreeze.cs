@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyFreeze : MonoBehaviour
 {
     [SerializeField] Material freezeMat;
+    [SerializeField] Material wetMat;
     [SerializeField] Material defMat;
     [SerializeField] SpriteRenderer sr;
     EnemyMove enemyMove;
@@ -17,6 +18,11 @@ public class EnemyFreeze : MonoBehaviour
         enemyMove = GetComponent<EnemyMove>();
         health = GetComponent<Health>();
         speed = enemyMove.speed;
+    }
+
+    public void Wet()
+    {
+        sr.material = wetMat;
     }
 
     public void Freeze()

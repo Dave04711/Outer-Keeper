@@ -87,7 +87,7 @@ public class EnemySpawn : MonoBehaviour
                 NewFraction();
             }
             if (waveIndex % 5 == 0) { enemyCount += 5; }
-            if ( waveIndex % 1 == 0 && spawnSpeed < 2f) 
+            if ( waveIndex % 10 == 0 && spawnSpeed < 2f) 
             { 
                 spawnSpeed += .1f;
                 NewFraction();

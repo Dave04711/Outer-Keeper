@@ -17,6 +17,12 @@ public class Health : MonoBehaviour
     [Space]
     public bool wet = false;
 
+    public void Wet()
+    {
+        wet = true;
+        GetComponent<EnemyFreeze>().Wet();
+    }
+
     public void Damage(int _damage)
     {
         if (wet) { health -= _damage * 10; }

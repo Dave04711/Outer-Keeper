@@ -78,6 +78,7 @@ public class EnemyMove : MonoBehaviour
         }
         else
         {
+            if (!GetComponent<Health>().IsAlive()) { StopAllCoroutines(); }
             Rotate(targets[0].transform.position.x < transform.position.x);
             if (!isBoss) { speed = 0; }
             animator.SetTrigger("attack");

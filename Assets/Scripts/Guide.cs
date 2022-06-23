@@ -81,8 +81,11 @@ public class Guide : MonoBehaviour
         else
         {
             guide.GetComponent<Animator>().SetBool("isMoving", false);
-            ShowChat(points[index].whichDialogue);
-            ReloadTxt(points[index].whichDialogue, points[index].txt[points[index].index]);
+            if(points[index].index == 0)
+            {
+                ShowChat(points[index].whichDialogue);
+                ReloadTxt(points[index].whichDialogue, points[index].txt[points[index].index]);
+            }
         }
     }
 
@@ -139,6 +142,7 @@ public class Guide : MonoBehaviour
 
     void ReloadTxt(NPC _p, string txt)
     {
+        if(points[index].index != 0){ StopAllCoroutines(); }
         switch (_p)
         {
             case NPC.Guide:

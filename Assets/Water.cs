@@ -22,7 +22,7 @@ public class Water : Bullet
                 if (health != null)
                 {
                     health.Damage(damage);
-                    health.wet = true;
+                    health.Wet();
                 }
             }
         }

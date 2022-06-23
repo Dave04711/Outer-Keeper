@@ -445,6 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeMat: {fileID: 2100000, guid: bc67992b6133e014fafd82a48123ea07, type: 2}
+  wetMat: {fileID: 2100000, guid: 25f35520105d0dc4db8678ed6be5998f, type: 2}
   defMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   sr: {fileID: 4199498802362463110}
   animator: {fileID: 1327287785235458095}
