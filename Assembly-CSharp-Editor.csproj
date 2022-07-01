@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;EASY_MOBILE;EASY_MOBILE_PRO;EM_URP;UNITY_MONETIZATION;EM_UNITY_ADS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -58,7 +58,82 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\PathManagerEditor.cs" />
     <Compile Include="Assets\Editor\PathEditor.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditorHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\EnumFlagsDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Notifications.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_Sharing.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_BuildManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_ProjectSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_ExternalPluginManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_Utilities.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_Privacy.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\Utils\GlobalDefineManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\CompositeModuleManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_BuiltinObjectCreator.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\RenameDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_EditorUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_GameServices.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_GUIStyleManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Advertising.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\KeyValuePairDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\Extensions\SerializedPropertyExtension.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_NativeAPIs.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\SerializableDictionary\DictionaryDrawer_AdPlacement_AdId.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_GameServices.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\ManifestGenerator\AndroidManifestElementEditWindow.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_Notifications.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_AndroidLibBuilder.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_AndroidManifestBuilder.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_Editor_TabSelection.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\Utils\FileIO.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_PluginManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_ScriptingSymbols.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_Constants.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Gif.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\NotificationActionButtonDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\GIF\RecorderEditor.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_Ads.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_EditorGUI.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\Extensions\EditorGUILayoutExt.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_ModuleSelection.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_Editor_Tab_Tools.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Sharing.cs" />
     <Compile Include="Assets\Editor\PointEditor.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_About.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_InAppPurchasing.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_Editor_Tab_Build.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_IAP.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_MenuManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\SerializableDictionary\SerializableDictionaryPropertyDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Utilities.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsEditor_NativeAPIs.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\SerializableDictionary\SerializableDictionaryDrawerDefinition.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager_Privacy.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Modules\ModuleManagers\ModuleManager.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_SettingsWindow.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\EM_Constants_Version.cs" />
+    <Compile Include="Assets\EasyMobile\Editor\Common\PropertyDrawers\AdPlacementDrawer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\EasyMobile\Editor\Templates\Template_TapJoyAndroidManifest.xml" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Manifests\Manifest_Main.xml" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Manifests\Manifest_Sharing.xml" />
+    <None Include="Assets\EasyMobile\Editor\EasyMobileDependencies.xml" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.169\Google.IOSResolver.dll" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.169\Google.VersionHandlerImpl.dll" />
+    <None Include="Assets\EasyMobile\Editor\Templates\AndroidLibTemplate\AndroidManifest.xml" />
+    <None Include="Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.169\Google.JarResolver.dll" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Manifests\Manifest_CameraGallery.xml" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Template_GooglePlayTangle.txt" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Template_Constants.txt" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Template_AppleTangle.txt" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Manifests\Manifest_Notifications.xml" />
+    <None Include="Assets\EasyMobile\Editor\Templates\Manifests\Manifest_Contacts.xml" />
+    <None Include="Assets\EasyMobile\Editor\EasyMobileSettings.txt" />
+    <None Include="Assets\ExternalDependencyManager\Editor\1.2.169\Google.PackageManagerResolver.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -316,6 +391,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>G:\Programy\Unity\2021.3.3f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -325,20 +403,14 @@
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.169\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
@@ -346,8 +418,26 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.16\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.169\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.169\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.169\Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -757,6 +847,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
@@ -792,6 +885,9 @@
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications.Android">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
@@ -867,6 +963,9 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>

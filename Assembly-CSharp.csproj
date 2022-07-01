@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_3;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;EASY_MOBILE;EASY_MOBILE_PRO;EM_URP;UNITY_MONETIZATION;EM_UNITY_ADS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,91 +56,518 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarControl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\ILocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\GiphyUploadParams.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\AndroidConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\iOSNativeGif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaResult.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifImageDescriptor.cs" />
     <Compile Include="Assets\Scripts\FartWave.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\MinAttribute.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\InterstitialSection.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\ReflectionUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogUI.cs" />
     <Compile Include="Assets\Scripts\Skills\TimeManipulation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPostalAddress.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Native\iOSSavedGameNative.cs" />
     <Compile Include="Assets\Scripts\Food\Broccolli.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Platforms\GCSupport\GameKitTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSRange.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKErrorCode.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNLabeledValue.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStatus.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifApplicationExtension.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStorage.cs" />
     <Compile Include="Assets\Scripts\PathsManager.cs" />
     <Compile Include="Assets\Scripts\Interacting.cs" />
     <Compile Include="Assets\Scripts\StayOnAnim.cs" />
     <Compile Include="Assets\Scripts\EnemySpawn.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdLocation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\Util.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifHeader.cs" />
     <Compile Include="Assets\Scripts\RangeIndicator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImage.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Sharing.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdId.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\ITurnBasedMultiplayerClient.cs" />
     <Compile Include="Assets\Scripts\HPBar.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaType.cs" />
     <Compile Include="Assets\Scripts\UIFreezeRotation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\iOSInfoPlistItem.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\UnsupportedSavedGameClient.cs" />
     <Compile Include="Assets\Scripts\CannonCard.cs" />
     <Compile Include="Assets\Scripts\CannonShop.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\EM_GIF_URP_Feature\EM_GIFRecorderFeature.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Gif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\BaseNativeEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSTimeZone.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\iOSNativeUtility.cs" />
     <Compile Include="Assets\Scripts\RangeIndicatorMoving.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Utils\BitUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreTelephony\CTCarrier.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\StorageUtil.cs" />
     <Compile Include="Assets\Scripts\CashUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedRealTimeMultiplayerClient.cs" />
     <Compile Include="Assets\Scripts\Cannon.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSError.cs" />
     <Compile Include="Assets\Scripts\SpriteMaskAnimation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidPickContactProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AutoAdLoadingMode.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\Advertising.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKInviteEventListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdPosition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\INativeContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\AndroidUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidationMethods.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Worker.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsScreensElement.cs" />
     <Compile Include="Assets\Scripts\LineAttackFX.cs" />
     <Compile Include="Assets\Water.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\IAndroidPermissionRequired.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerScaleMode.cs" />
     <Compile Include="Assets\Scripts\FartWaveObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\AnimatedClip.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNKeyDescriptor.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\AppTrackingManager\UnsupportedAppTrackingManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedMatchmakerViewControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\NeuQuant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\IIOSInfoItemRequired.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSMutableArray.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdMobClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\iOSNativeAlert.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\AndroidSharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\iOSEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSMulticastDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesSdkElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\Utilities.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifFrame.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidGetContactsProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreFoundation\Functions\CFFunctions_CFType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSInteropObject.cs" />
     <Compile Include="Assets\Scripts\MobileMovement.cs" />
     <Compile Include="Assets\Scripts\TornadoBullet.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\ChartboostSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGSupport\GPGTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImagePickerController.cs" />
     <Compile Include="Assets\Scripts\CannonCrate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleSwitch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\Utils\iOSInteropUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidSaveImageProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notifications.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingDialogContent.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsPickerCallback.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ServiceElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSURL.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameModel.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidMediaResultBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElementStyles.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdSize.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePair.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionSdk23Element.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerDelegate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\iOSLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Recorder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\InternalUIAdaptivePresentationControllerDelegate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGameInfoUpdate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidLoadImageProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\Giphy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AppLovinClientImpl.cs" />
     <Compile Include="Assets\Scripts\TakeAmmo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\IPlatformConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\FairBidSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\StringStringCollectionView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\SharingSettings.cs" />
     <Compile Include="Assets\Scripts\Skills\Orb.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesFeatureElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\ImageFormat.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\InAppPurchasing.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\EditorLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\NativeUIDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Privacy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\UnityAds4ClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\AndroidLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKLocalPlayerListenerImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI_AlertPopup.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GifDemo\GifDemo.cs" />
     <Compile Include="Assets\BossIconUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationsDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\NoOpClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_ImageCreation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityAliasElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGame.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdvertisingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\EnumFlagsAttribute.cs" />
     <Compile Include="Assets\Scripts\Guide.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServices_Multiplayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\UnityAdsSettings.cs" />
     <Compile Include="Assets\Scripts\Campfire.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\AndroidPermission.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\VungleSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\EM_GIF_URP_Feature\EM_GIFRecorderPass.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObject.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\iOSNotificationNative.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\UnsupportedConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFetchRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPStore.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AudienceNetworkClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionGroupElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\GifStream.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionTreeElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifPalette.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\UnsupportedSharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatch.cs" />
     <Compile Include="Assets\Scripts\EnemyFreeze.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdPlacement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\GlobalConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedEventListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\StoreReview.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFormatter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\iOSNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObjectFactory.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\VungleClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\IAppLifecycleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_PhotoAlbum.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\UtilitiesDemo\UtilitiesDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Decode\GifCanvas.cs" />
     <Compile Include="Assets\Scripts\DroppedLoot.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\GrantUriPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdvertisingConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogClickableText.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsGlTextureElement.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoHomeController.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\SharingDemo\SharingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmakerViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\AppTrackingAuthorizationStatus.cs" />
     <Compile Include="Assets\Scripts\PauseManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactSortOrder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePairDefinition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidMediaCollectedProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaResultView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\AppTrackingSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\EM_3DI70R_GIF.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdColonySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\AndroidNotificationNative.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedParticipantExt.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_BaseControl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\TurnBasedMatch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\iOSSharingClient.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivity.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\MobileCoreServices\Constants\UTTypeConstants.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableListItem.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\StringStringPairBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\Submodule.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\FairBidClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedEventListener.cs" />
     <Compile Include="Assets\Scripts\ActiveSkill.cs" />
     <Compile Include="Assets\Scripts\Consumable2Buy.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\PrivacyDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\DummyAppLifecyleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNKeyDescriptor.cs" />
     <Compile Include="Assets\Scripts\UpgradePanel.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeApisSettings.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedParticipant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\ColorExt.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\OneSignalHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DigitalClock.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\TapjoyClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Android\Common\EMAndroidJavaObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceCamera.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\AndroidSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\TextureGenerator.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\RewardedInterstitialSection.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\Module.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameModel.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ProviderElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\UnsupportedLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ApplicationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ReceiverElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidPickFromGalleryProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKPlayer.cs" />
     <Compile Include="Assets\Scripts\Cloud.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\EM_Settings.cs" />
     <Compile Include="Assets\Scripts\Item2Buy.cs" />
     <Compile Include="Assets\Scripts\Skills\StrongJoints.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\AndroidNativeAlert.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\UnsupportedContactProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\AndroidEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\ReflectionUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\IClipPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\LoadAndShowSection.cs" />
     <Compile Include="Assets\Scripts\Trap.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaAPISettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifDisposalMethod.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_RealtimeKitchenSink.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\AppTrackingTransparency\ATTrackingManager.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\MetaDataElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSLocale.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Internal\UIImagePickerControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactStore.cs" />
     <Compile Include="Assets\Scripts\BulletArc.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryDefinition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesSettings.cs" />
     <Compile Include="Assets\Scripts\CannonShopManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AudienceNetworkSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\AndroidAppLifecyleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IronSourceClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\EditorConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\RenameAttribute.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\UnityAdsClientImpl.cs" />
     <Compile Include="Assets\Scripts\DoubleTapCameraZoom.cs" />
     <Compile Include="Assets\Scripts\Medkit.cs" />
     <Compile Include="Assets\Scripts\Path.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\DeviceContacts.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServices_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\Internal\CNContactPickerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKLocalPlayerListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorChooser.cs" />
     <Compile Include="Assets\Scripts\GadgetButton.cs" />
     <Compile Include="Assets\Scripts\barrelComponent.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Player.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\IPlatformEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceCamera.cs" />
     <Compile Include="Assets\Scripts\Skills\WeatherControl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\ISharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\InstrumentationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IAdClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\TextureUtilities.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaDemo.cs" />
     <Compile Include="Assets\Scripts\ItemSO.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\AddedStringStringView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationContent.cs" />
     <Compile Include="Assets\Scripts\CircleAttackFX.cs" />
     <Compile Include="Assets\Scripts\PlayerActions.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\AppLifecycleManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\CameraType.cs" />
     <Compile Include="Assets\Scripts\ActiveBuff.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSData.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\DateTimeExt.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\BannerSection.cs" />
     <Compile Include="Assets\Scripts\TownHealth.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingRequestSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarInputHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDateComponents.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServicesSettings_Multiplayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifPlainText.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContact.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCameraControl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\SoundManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServices.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Helpers\RuntimeHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInviteEventListener.cs" />
     <Compile Include="Assets\Scripts\Skills\BetterCombat.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\ISavedGameClient.cs" />
+    <Compile Include="Assets\AdsManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GameKitTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactProperty.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\LoadingPanelController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\StrongToWeakDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationCategory.cs" />
     <Compile Include="Assets\Scripts\Food\Chicken.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\TapjoySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\NativeGifTypes.cs" />
     <Compile Include="Assets\Scripts\MineEntry.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNMutableContact.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdNetworkSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreGraphics\CGSize.cs" />
     <Compile Include="Assets\Scripts\ClosePanel.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchOutcome.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Constants.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\FirebaseMessagingPayLoad.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCRealTimeMultiplayerClient.cs" />
     <Compile Include="Assets\Scripts\DestructableCannonCrate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionStatus.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedMatchmakerViewControllerDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\INotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSString.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\AndroidNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchmakerViewControllerDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdChildDirectedTreatment.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIPresentationController.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_TurnbasedKitchenSink.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\AndroidNativeGif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\OneSignalNotificationPayload.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\FileUtil.cs" />
     <Compile Include="Assets\BossAttack.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSObjectProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Internal\UIAdaptivePresentationControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\AppTrackingManager\iOSAppTrackingManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSFileManager.cs" />
     <Compile Include="Assets\Scripts\Rock.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\CrossPlatformId.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceGallery.cs" />
     <Compile Include="Assets\Scripts\Bear.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivityViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdNetwork.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeCallbackUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifImage.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\GeneratableAndroidManifest.cs" />
     <Compile Include="Assets\Scripts\GridLayout.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\EditorNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\DemoAppConsent.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Participant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notification.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNSaveRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\IInteropObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdMobSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\FolderHelper.cs" />
     <Compile Include="Assets\Scripts\TrapObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerViewController.cs" />
     <Compile Include="Assets\Scripts\Bless.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Decode\GifBitBlockReader.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmaker.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNLabeledValue.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdOrientation.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableList.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPProduct.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSPredicate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchDelegateForwarder.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ActionButton.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\iOSConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\IConsentRequirable.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesConfigurationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\IronSourceSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryBase.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\AlertPopup.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifVersion.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesLibraryElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\iOSSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdColonyClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\ContactsAPISettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEACountries.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\IntentFilterElement.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdsSection.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServicesSettings_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\UnsupportedEEARegionValidator.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill2Buy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesItem.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchmakerViewControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\AndroidNativeUtility.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Decode\GifLzwDictionary.cs" />
     <Compile Include="Assets\Scripts\Potion2Buy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifEncoder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatchmakerViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRepeat.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameView.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Media.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifGraphicControl.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\MiniJSON\MiniJSON.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCTurnBasedMultiplayerClient.cs" />
     <Compile Include="Assets\Scripts\MerchantShop.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\GifExportTask.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\3DI70R_GIF\Scripts\Runtime\Model\GifNetscapeExtension.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPhoneNumber.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ManifestElement.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayerListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIApplication.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PathPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\CategoryElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\LzwEncoder.cs" />
     <Compile Include="Assets\Scripts\OrbObject.cs" />
     <Compile Include="Assets\Scripts\ObjectThrow.cs" />
     <Compile Include="Assets\Scripts\UIContainer.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\RewardedVideoSection.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInvite.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\Listener\NativeConsentDialogListener.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\InAppPurchasingDemo\InAppPurchasingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameControl.cs" />
     <Compile Include="Assets\Scripts\FreezeRotate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSArray.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogButtonUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchRequest.cs" />
     <Compile Include="Assets\Scripts\SpawnItem.cs" />
     <Compile Include="Assets\Scripts\Destructable.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\InternalUIImagePickerControllerDelegate.cs" />
     <Compile Include="Assets\Scripts\DestructableCannon.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\UnsupportedNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\ChartboostClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\ConsentDialogContentSerializer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\EditorSavedGameClient.cs" />
     <Compile Include="Assets\BossHealth.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\IAppTrackingManager.cs" />
     <Compile Include="Assets\Scripts\UpgradeStation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Contact.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\RuntimeManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\FirebaseMessagingHelper.cs" />
     <Compile Include="Assets\Scripts\GameOverPanel.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\PrivacySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameControl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Invitation.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AppLovinSettings.cs" />
     <Compile Include="Assets\Scripts\CannonSO.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\DataElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradient.shader" />
+    <None Include="Assets\EasyMobile\Plugins\Android\m2repository\com\sglib\easymobile\easy-mobile\maven-metadata.xml" />
+    <None Include="Assets\EasyMobile\GUISkins\Fonts\Montserrat\Montserrat - SIL Open Font License.txt" />
+    <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradientSkybox.shader" />
+    <None Include="Assets\EasyMobile\link.xml" />
+    <None Include="Assets\EasyMobile\Demo\Fonts\JosefinSans\JosefinSans - SIL Open Font License.txt" />
+    <None Include="Assets\EasyMobile\Demo\Materials\GradientSkybox.shader" />
+    <None Include="Assets\EasyMobile\Third-Party Notices.txt" />
+    <None Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Moments_License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -380,23 +807,23 @@
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.8.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>G:\Programy\Unity\2021.3.3f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -788,6 +1215,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
@@ -823,6 +1253,9 @@
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications.Android">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
@@ -898,6 +1331,9 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>

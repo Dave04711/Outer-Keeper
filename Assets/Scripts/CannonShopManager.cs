@@ -24,6 +24,7 @@ public class CannonShopManager : MonoBehaviour
     public int cash;
     public CashUI cashUI;
     public GameObject currentCannonGameObject;
+    public bool doubleCash = false;
 
     public int metalShards;
 
@@ -52,6 +53,13 @@ public class CannonShopManager : MonoBehaviour
 
     public void AddCash(int _p)
     {
+        if (doubleCash)
+        {
+            int newCash = _p * 2;
+            cash += newCash;
+            cashUI.ShowIncome(newCash);
+            return;
+        }
         cash += _p;
         cashUI.ShowIncome(_p);
     }

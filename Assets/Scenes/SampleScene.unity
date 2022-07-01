@@ -89210,7 +89210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638297288}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1895358672}
+        m_TargetAssemblyTypeName: AdsManager, Assembly-CSharp
+        m_MethodName: PlayRewardedAd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1638297291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94928,6 +94940,7 @@ GameObject:
   - component: {fileID: 1895358669}
   - component: {fileID: 1895358670}
   - component: {fileID: 1895358671}
+  - component: {fileID: 1895358672}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -94972,6 +94985,7 @@ MonoBehaviour:
   cash: 0
   cashUI: {fileID: 253662343}
   currentCannonGameObject: {fileID: 0}
+  doubleCash: 0
   metalShards: 0
 --- !u!114 &1895358670
 MonoBehaviour:
@@ -95001,6 +95015,18 @@ MonoBehaviour:
   townHPBar: {fileID: 149629980}
   score: 0
   AIParent: {fileID: 277847058}
+--- !u!114 &1895358672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895358667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7623d998bf7c95d469c49db01287dd47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1899165116
 GameObject:
   m_ObjectHideFlags: 0

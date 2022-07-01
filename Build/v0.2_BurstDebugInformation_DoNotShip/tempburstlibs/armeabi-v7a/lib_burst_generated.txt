@@ -112,6 +112,11 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_TILEMAP
 --compilation-defines=ENABLE_TIMELINE
 --compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
+--compilation-defines=EASY_MOBILE
+--compilation-defines=EASY_MOBILE_PRO
+--compilation-defines=EM_URP
+--compilation-defines=UNITY_MONETIZATION
+--compilation-defines=EM_UNITY_ADS
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -170,6 +175,8 @@ Library: lib_burst_generated
 --root-assembly=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+--root-assembly=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\UnityEngine.Monetization.dll
+--root-assembly=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\UnityEngine.Advertisements.dll
 --assembly-folder=G:\Projekty\Maciek\Outer-Keeper\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.Rendering.Universal.RadixSortJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.RadixSortJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--26c6d10914da2fc98755b3533c59141e
